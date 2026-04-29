@@ -1,68 +1,81 @@
 import os
-import sys
-import time
 import requests
+import time
+import sys
 from rich.console import Console
 from rich.panel import Panel
 from rich.prompt import Prompt
 from rich.text import Text
 from rich.theme import Theme
 
-# Customizing the look: Magenta for AI, Cyan for User
-custom_theme = Theme({
-    "info": "dim cyan",
-    "warning": "bold yellow",
-    "error": "bold red",
-    "user": "bold cyan",
-    "ai": "bold magenta"
-})
+# --- CONFIGURATION ---
+# Your GitHub details (used as a secondary backup)
+GITHUB_USER = "furrycoder67"
+GITHUB_REPO = "boarhiro"
+LINK_URL = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/main/link.txt"
 
+# Aesthetics Setup
+custom_theme = Theme({
+    "info": "dim cyan", 
+    "user": "bold cyan", 
+    "ai": "bold magenta", 
+    "error": "bold red"
+})
 console = Console(theme=custom_theme)
 
-class BoarhiroConfig:
-    """Handles the persistence of the Colab/Ngrok URL."""
-    CONFIG_FILE = ".boarhiro_config"
+def get_brain_url():
+    """
+    Finds the Brain URL. 
+    Priority 1: Local 'link.txt' (Immediate/Development)
+    Priority 2: GitHub 'link.txt' (Remote/Production)
+    """
+    # 1. Check for local link.txt file in the current directory
+    if os.path.exists("link.txt"):
+        try:
+            with open("link.txt", "r") as f:
+                url = f.read().strip()
+                if url.startswith("http"):
+                    return url
+        except Exception:
+            pass
 
-    @classmethod
-    def get_url(cls):
-        if os.path.exists(cls.CONFIG_FILE):
-            with open(cls.CONFIG_FILE, "r") as f:
-                return f.read().strip()
+    # 2. Fallback: Fetch from GitHub
+    try:
+        response = requests.get(LINK_URL, timeout=3)
+        if response.status_code == 200:
+            return response.text.strip()
+    except Exception:
         return None
-
-    @classmethod
-    def save_url(cls, url):
-        with open(cls.CONFIG_FILE, "w") as f:
-            f.write(url)
+    return None
 
 def show_banner():
     """Renders the aesthetic header."""
     banner = Text(justify="center")
     banner.append("🐗 BOARHIRO v0.1.0\n", style="ai")
-    banner.append("Logic. Speed. Minimalism.", style="info")
+    banner.append("Neural Link Established", style="info")
     
     console.print(Panel(
         banner, 
         border_style="bright_blue", 
         padding=(1, 2),
-        subtitle="[bold white]Neural Link Active[/bold white]"
+        subtitle="[bold white]Ready for Instruction[/bold white]"
     ))
 
 def run_cli():
-    # Clear screen for that 'fresh app' feel
     console.clear()
     show_banner()
+    
+    # Attempt to sync with the Brain
+    with console.status("[info]Synchronizing with Cloud Brain...", spinner="dots"):
+        url = get_brain_url()
+        time.sleep(1) # Visual breathing room
+    
+    if not url:
+        console.print("[error]❌ Error:[/error] Neural link not found.")
+        console.print("[dim]Please ensure your Ngrok URL is saved in 'link.txt'.[/dim]")
+        return
 
-    # Handle URL configuration
-    url = BoarhiroConfig.get_url()
-    if not url or "--reset" in sys.argv:
-        console.print("[warning]! Setup Required: Enter your Colab Backend URL[/warning]")
-        url = Prompt.ask("[user]URL[/user]")
-        if not url.startswith("http"):
-            url = f"https://{url}"
-        BoarhiroConfig.save_url(url)
-        console.print("[info]Link saved successfully.[/info]\n")
-
+    # Set the API endpoint
     endpoint = f"{url.rstrip('/')}/generate"
 
     while True:
@@ -70,7 +83,8 @@ def run_cli():
             # 1. Styled User Input
             user_input = Prompt.ask("[user]❯[/user]")
 
-            if user_input.lower() in ["exit", "quit", "bye"]:
+            # Exit commands
+            if user_input.lower() in ["exit", "quit", "bye", "stop"]:
                 console.print("\n[info]🐗 Shutting down. Logic stored.[/info]")
                 break
 
@@ -80,26 +94,27 @@ def run_cli():
             # 2. Animated Thinking Status
             with console.status("[italic ai]Consulting the Swarm...[/italic ai]", spinner="bouncingBar"):
                 try:
+                    # Send prompt to the Colab Brain
                     response = requests.post(
                         endpoint, 
-                        json={"prompt": user_input},
-                        timeout=15
+                        json={"prompt": user_input}, 
+                        timeout=20
                     )
                     response.raise_for_status()
                     data = response.json()
-                    ai_reply = data.get("response", "No logic returned.")
-                except Exception as e:
-                    ai_reply = f"[error]Connection Error:[/error] Could not reach the Brain.\n[dim]{e}[/dim]"
+                    ai_reply = data.get("response", "Logic void: No data returned.")
+                except requests.exceptions.RequestException as e:
+                    ai_reply = f"[error]Connection Lost.[/error]\n[dim]Verify Colab is running and your link is correct.[/dim]"
 
             # 3. Styled Response Panel
             console.print(Panel(
-                ai_reply,   
+                ai_reply, 
                 title="[bold white]BOARHIRO[/bold white]", 
                 title_align="left",
                 border_style="ai",
                 padding=(1, 1)
             ))
-            console.print("") # Spacer
+            console.print("") # Visual spacer
 
         except KeyboardInterrupt:
             console.print("\n[info]Session terminated.[/info]")
