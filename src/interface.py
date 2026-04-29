@@ -93,7 +93,7 @@ def run_cli():
 
             # 3. Styled Response Panel
             console.print(Panel(
-                ai_reply, 
+                ai_reply,   
                 title="[bold white]BOARHIRO[/bold white]", 
                 title_align="left",
                 border_style="ai",
