@@ -14,11 +14,9 @@ LINK_URL = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/main/
 console = Console(theme=Theme({"info": "dim cyan", "user": "bold cyan", "ai": "bold magenta", "error": "bold red"}))
 
 def get_brain_url():
-    # Priority 1: Local file
     if os.path.exists("link.txt"):
         with open("link.txt", "r") as f:
             return f.read().strip()
-    # Priority 2: GitHub
     try:
         r = requests.get(LINK_URL, timeout=3)
         if r.status_code == 200: return r.text.strip()
@@ -33,7 +31,7 @@ def run_cli():
     
     url = get_brain_url()
     if not url:
-        console.print("[error]❌ Error: Link missing.[/error]")
+        console.print("[error]❌ Error: Link missing. Check link.txt or GitHub.[/error]")
         return
 
     endpoint = f"{url.rstrip('/')}/generate"
@@ -45,10 +43,10 @@ def run_cli():
             
             with console.status("[italic ai]Neural Processing...[/italic ai]", spinner="dots"):
                 try:
-                    res = requests.post(endpoint, json={"prompt": inp}, timeout=30)
+                    res = requests.post(endpoint, json={"prompt": inp}, timeout=45)
                     reply = res.json().get("response", "Logic void.")
                 except:
-                    reply = "[error]Link severed.[/error]"
+                    reply = "[error]Link severed. Is Colab running?[/error]"
 
             console.print(Panel(reply, title="[bold white]BOARHIRO[/bold white]", border_style="ai", padding=(1,1)))
         except KeyboardInterrupt:
