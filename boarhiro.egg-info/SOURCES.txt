@@ -1,0 +1,13 @@
+README.md
+setup.py
+boarhiro.egg-info/PKG-INFO
+boarhiro.egg-info/SOURCES.txt
+boarhiro.egg-info/dependency_links.txt
+boarhiro.egg-info/entry_points.txt
+boarhiro.egg-info/requires.txt
+boarhiro.egg-info/top_level.txt
+src/__init__.py
+src/auto_generator.py
+src/bridge.py
+src/interface.py
+src/local_watcher.py

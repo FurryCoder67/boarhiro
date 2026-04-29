@@ -1,22 +1,30 @@
+import os
 import time
-from watchdog.observers import Observer
-from watchdog.events import FileSystemEventHandler
+import subprocess
 
-class LogicHandler(FileSystemEventHandler):
-    def on_modified(self, event):
-        if event.src_path.endswith(".py") and "input.txt" not in event.src_path:
-            with open(event.src_path, "r") as f:
-                content = f.read()
-            with open("data/input.txt", "a") as out:
-                out.write(f"\n# User Logic Update: {event.src_path}\n{content}")
-            print(f"🐗 BOARHIRO absorbed: {event.src_path}")
+WATCH_FILE = "data/input.txt"
+
+def get_file_size():
+    return os.path.getsize(WATCH_FILE) if os.path.exists(WATCH_FILE) else 0
+
+def push_to_github():
+    print("📦 New logic detected! Shipping to GitHub...")
+    subprocess.run(["git", "add", WATCH_FILE])
+    subprocess.run(["git", "commit", "-m", "BOARHIRO Auto-Update: New logic added"])
+    subprocess.run(["git", "push", "origin", "main"])
+    print("✅ Shipment delivered.")
+
+def start_watcher():
+    print("⚖️ Local Watcher is online. Waiting for data...")
+    last_size = get_file_size()
+    
+    while True:
+        current_size = get_file_size()
+        if current_size > last_size:
+            push_to_github()
+            last_size = current_size
+        
+        time.sleep(10) # Check every 10 seconds
 
 if __name__ == "__main__":
-    observer = Observer()
-    observer.schedule(LogicHandler(), path='.', recursive=True)
-    observer.start()
-    try:
-        while True: time.sleep(1)
-    except KeyboardInterrupt:
-        observer.stop()
-    observer.join()
+    start_watcher()
