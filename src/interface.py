@@ -41,14 +41,29 @@ def run_cli():
             inp = Prompt.ask("[user]❯[/user]")
             if inp.lower() in ["exit", "quit"]: break
             
+            # SPECIAL COMMAND: !save
+            if inp.lower().startswith("!save "):
+                filename = inp.split(" ")[1]
+                if not filename.endswith(".py"): filename += ".py"
+                
+                # Check if we have a last_reply stored
+                if 'last_reply' in locals():
+                    path = os.path.join("tests", filename)
+                    with open(path, "w") as f:
+                        f.write(last_reply)
+                    console.print(f"[info]💾 Saved logic to {path}[/info]")
+                else:
+                    console.print("[error]❌ Nothing to save yet.[/error]")
+                continue
+
             with console.status("[italic ai]Neural Processing...[/italic ai]", spinner="dots"):
                 try:
                     res = requests.post(endpoint, json={"prompt": inp}, timeout=45)
-                    reply = res.json().get("response", "Logic void.")
+                    last_reply = res.json().get("response", "Logic void.")
                 except:
-                    reply = "[error]Link severed. Is Colab running?[/error]"
+                    last_reply = "[error]Link severed.[/error]"
 
-            console.print(Panel(reply, title="[bold white]BOARHIRO[/bold white]", border_style="ai", padding=(1,1)))
+            console.print(Panel(last_reply, title="[bold white]BOARHIRO[/bold white]", border_style="ai", padding=(1,1)))
         except KeyboardInterrupt:
             break
 
