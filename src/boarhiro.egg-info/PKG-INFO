@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: boarhiro
+Version: 0.1.0
+Summary: Transformer-based neural logic hunter
+Author: furrycoder67
+Requires-Dist: torch
+Requires-Dist: requests
+Requires-Dist: rich
