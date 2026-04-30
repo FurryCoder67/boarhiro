@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "boarhiro"
+version = "0.1.0"
+authors = [{ name="furrycoder67" }]
+description = "Transformer-based neural logic hunter"
+dependencies = ["torch", "requests", "rich"]
+
+[project.scripts]
+boarhiro = "boarhiro.interface:run_cli"
+
+[tool.setuptools.packages.find]
+where = ["src"]
