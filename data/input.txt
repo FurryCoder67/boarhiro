@@ -1,151 +1,65 @@
+def binary_search(arr, target):
+    low = 0
+    high = len(arr) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return -1
 
-Function: optimized_search_v2 | Timestamp: 1777491161.115329
-Logic: recursive_backtracking | Timestamp: 1777491221.1172173
-Function: optimized_search_v2 | Timestamp: 1777491281.1196434
-Function: optimized_search_v2 | Timestamp: 1777491341.1207907
-Pattern: linear_regression_gradient | Timestamp: 1777491401.1221466
-Function: optimized_search_v2 | Timestamp: 1777491461.1239011
-Logic: recursive_backtracking | Timestamp: 1777491521.1252124
-Pattern: linear_regression_gradient | Timestamp: 1777491581.1271365
-Function: optimized_search_v2 | Timestamp: 1777491641.1285965
-Pattern: linear_regression_gradient | Timestamp: 1777491701.1310656
-Function: optimized_search_v2 | Timestamp: 1777491761.1339
-Pattern: linear_regression_gradient | Timestamp: 1777491821.1353014
-Logic: recursive_backtracking | Timestamp: 1777491881.1385093
-Logic: recursive_backtracking | Timestamp: 1777491941.1405964
-Logic: recursive_backtracking | Timestamp: 1777492001.1415844
-Function: optimized_search_v2 | Timestamp: 1777492061.1435802
-Pattern: linear_regression_gradient | Timestamp: 1777492251.6790955
-Pattern: linear_regression_gradient | Timestamp: 1777492311.680401
-Pattern: linear_regression_gradient | Timestamp: 1777492371.682666
-Pattern: linear_regression_gradient | Timestamp: 1777492431.6843204
-Function: optimized_search_v2 | Timestamp: 1777492491.6870174
-Function: optimized_search_v2 | Timestamp: 1777492551.6888256
-Logic: recursive_backtracking | Timestamp: 1777492611.6911035
-Function: optimized_search_v2 | Timestamp: 1777492671.6935058
-Logic: recursive_backtracking | Timestamp: 1777492731.6956937
-Logic: recursive_backtracking | Timestamp: 1777492791.6981323
-Logic: recursive_backtracking | Timestamp: 1777492851.7003028
-Pattern: linear_regression_gradient | Timestamp: 1777492911.7026331
-Function: optimized_search_v2 | Timestamp: 1777492971.7037835
-Logic: recursive_backtracking | Timestamp: 1777493031.7060068
-Pattern: linear_regression_gradient | Timestamp: 1777493091.70849
-Pattern: linear_regression_gradient | Timestamp: 1777493151.7107031
-Function: optimized_search_v2 | Timestamp: 1777493211.7129874
-Function: optimized_search_v2 | Timestamp: 1777493271.7157896
-Pattern: linear_regression_gradient | Timestamp: 1777493331.7180908
-Logic: recursive_backtracking | Timestamp: 1777493391.7203221
-Function: optimized_search_v2 | Timestamp: 1777493451.7228367
-Logic: recursive_backtracking | Timestamp: 1777493511.7252057
-Pattern: linear_regression_gradient | Timestamp: 1777493571.7277405
-Pattern: linear_regression_gradient | Timestamp: 1777493631.7301016
-Logic: recursive_backtracking | Timestamp: 1777493691.7320075
-Logic: recursive_backtracking | Timestamp: 1777493751.7344673
-Pattern: linear_regression_gradient | Timestamp: 1777493811.7368395
-Function: optimized_search_v2 | Timestamp: 1777493871.738717
-Pattern: linear_regression_gradient | Timestamp: 1777493931.7407033
-Pattern: linear_regression_gradient | Timestamp: 1777493991.743096
-Pattern: linear_regression_gradient | Timestamp: 1777494051.7457
-Logic: recursive_backtracking | Timestamp: 1777494111.7477994
-Pattern: linear_regression_gradient | Timestamp: 1777494171.7495897
-Logic: recursive_backtracking | Timestamp: 1777494231.7517006
-Function: optimized_search_v2 | Timestamp: 1777494291.7542849
-Function: optimized_search_v2 | Timestamp: 1777494351.7570415
-Pattern: linear_regression_gradient | Timestamp: 1777494411.759853
-Pattern: linear_regression_gradient | Timestamp: 1777494471.7621977
-Function: optimized_search_v2 | Timestamp: 1777494531.7643433
-Logic: recursive_backtracking | Timestamp: 1777494591.766618
-Logic: recursive_backtracking | Timestamp: 1777494651.7689407
-Logic: recursive_backtracking | Timestamp: 1777494711.771176
-Function: optimized_search_v2 | Timestamp: 1777494771.77337
-Logic: recursive_backtracking | Timestamp: 1777494831.7758226
-Function: optimized_search_v2 | Timestamp: 1777494891.778032
-Function: optimized_search_v2 | Timestamp: 1777494951.7801237
-Pattern: linear_regression_gradient | Timestamp: 1777495011.7822573
-Pattern: linear_regression_gradient | Timestamp: 1777495071.7841134
-Function: optimized_search_v2 | Timestamp: 1777495131.7868135
-Logic: recursive_backtracking | Timestamp: 1777495191.7892377
-Pattern: linear_regression_gradient | Timestamp: 1777495251.7915468
-Pattern: linear_regression_gradient | Timestamp: 1777495311.79376
-Pattern: linear_regression_gradient | Timestamp: 1777495371.7956896
-Pattern: linear_regression_gradient | Timestamp: 1777495431.7978532
-Function: optimized_search_v2 | Timestamp: 1777495491.8003027
-Pattern: linear_regression_gradient | Timestamp: 1777495551.802805
-Function: optimized_search_v2 | Timestamp: 1777495611.8052921
-Pattern: linear_regression_gradient | Timestamp: 1777495671.8074696
-Logic: recursive_backtracking | Timestamp: 1777495731.8097084
-Logic: recursive_backtracking | Timestamp: 1777495791.8122003
-Function: optimized_search_v2 | Timestamp: 1777495851.8147285
-Logic: recursive_backtracking | Timestamp: 1777495911.8173633
-Function: optimized_search_v2 | Timestamp: 1777495971.8193476
-Pattern: linear_regression_gradient | Timestamp: 1777496031.8213754
-Logic: recursive_backtracking | Timestamp: 1777496091.824085
-Pattern: linear_regression_gradient | Timestamp: 1777496151.8263528
-Pattern: linear_regression_gradient | Timestamp: 1777496211.8283145
-Function: optimized_search_v2 | Timestamp: 1777496271.8305619
-Pattern: linear_regression_gradient | Timestamp: 1777496331.832924
-Logic: recursive_backtracking | Timestamp: 1777496391.8346395
-Logic: recursive_backtracking | Timestamp: 1777496451.8370316
-Logic: recursive_backtracking | Timestamp: 1777496511.8396866
-Function: optimized_search_v2 | Timestamp: 1777496571.8421788
-Function: optimized_search_v2 | Timestamp: 1777496631.844796
-Pattern: linear_regression_gradient | Timestamp: 1777496691.8469803
-Pattern: linear_regression_gradient | Timestamp: 1777496751.848179
-Function: optimized_search_v2 | Timestamp: 1777496811.8498359
-Logic: recursive_backtracking | Timestamp: 1777496871.8516085
-Logic: recursive_backtracking | Timestamp: 1777496931.8530662
-Function: optimized_search_v2 | Timestamp: 1777496991.854551
-Logic: recursive_backtracking | Timestamp: 1777497051.8558948
-Function: optimized_search_v2 | Timestamp: 1777497111.8571177
-Pattern: linear_regression_gradient | Timestamp: 1777497171.8584502
-Function: optimized_search_v2 | Timestamp: 1777497231.8596282
-Function: optimized_search_v2 | Timestamp: 1777497291.8607066
-Logic: recursive_backtracking | Timestamp: 1777497351.8629568
-Function: optimized_search_v2 | Timestamp: 1777497352.5502822
-Function: optimized_search_v2 | Timestamp: 1777497411.8638542
-Function: optimized_search_v2 | Timestamp: 1777497412.5513554
-Function: optimized_search_v2 | Timestamp: 1777497471.8649712
-Logic: recursive_backtracking | Timestamp: 1777497472.5536716
-Pattern: linear_regression_gradient | Timestamp: 1777497531.866288
-Function: optimized_search_v2 | Timestamp: 1777497532.5554805
-Logic: recursive_backtracking | Timestamp: 1777497591.8677375
-Function: optimized_search_v2 | Timestamp: 1777497592.5571213
-Function: optimized_search_v2 | Timestamp: 1777497614.2973857
-Pattern: linear_regression_gradient | Timestamp: 1777497627.3215413
-Pattern: linear_regression_gradient | Timestamp: 1777497687.3222437
-Logic: recursive_backtracking | Timestamp: 1777497747.3236387
-Logic: recursive_backtracking | Timestamp: 1777497807.3253217
-Pattern: linear_regression_gradient | Timestamp: 1777497867.3277106
-Pattern: linear_regression_gradient | Timestamp: 1777497927.329896
-Logic: recursive_backtracking | Timestamp: 1777497987.3341522
-Function: optimized_search_v2 | Timestamp: 1777498047.3362978
-Logic: recursive_backtracking | Timestamp: 1777498107.3380058
-Function: optimized_search_v2 | Timestamp: 1777498205.4445484
-Logic: recursive_backtracking | Timestamp: 1777498265.44558
-Pattern: linear_regression_gradient | Timestamp: 1777498325.44714
-Function: optimized_search_v2 | Timestamp: 1777498385.4489143
-Logic: recursive_backtracking | Timestamp: 1777498445.4502892
-Function: optimized_search_v2 | Timestamp: 1777498505.4525366
-Function: optimized_search_v2 | Timestamp: 1777498565.4539955
-Pattern: linear_regression_gradient | Timestamp: 1777498625.4561932
-Logic: recursive_backtracking | Timestamp: 1777498685.4579391
-Function: optimized_search_v2 | Timestamp: 1777498745.4605305
-Function: optimized_search_v2 | Timestamp: 1777498805.4623568
-Pattern: linear_regression_gradient | Timestamp: 1777498865.4635172
-Logic: recursive_backtracking | Timestamp: 1777498925.4651937
-Logic: recursive_backtracking | Timestamp: 1777498985.467937
-Pattern: linear_regression_gradient | Timestamp: 1777499045.470537
-Function: optimized_search_v2 | Timestamp: 1777499105.4727087
-Function: optimized_search_v2 | Timestamp: 1777499165.4750135
-Logic: recursive_backtracking | Timestamp: 1777499225.4762235
-Logic: recursive_backtracking | Timestamp: 1777499285.4770653
-Logic: recursive_backtracking | Timestamp: 1777499345.4782298
-Function: optimized_search_v2 | Timestamp: 1777499405.4795804
-Function: optimized_search_v2 | Timestamp: 1777499465.4821208
-Logic: recursive_backtracking | Timestamp: 1777499525.4843547
-Function: optimized_search_v2 | Timestamp: 1777499585.4868443
-Logic: recursive_backtracking | Timestamp: 1777499645.489619
-Function: optimized_search_v2 | Timestamp: 1777499705.4915845
-Logic: recursive_backtracking | Timestamp: 1777499765.492762
-Function: optimized_search_v2 | Timestamp: 1777499825.4946249
-Pattern: linear_regression_gradient | Timestamp: 1777499885.4966679
+def calculate_gradient(x, y, weight, bias, learning_rate):
+    prediction = (weight * x) + bias
+    error = prediction - y
+    d_weight = error * x
+    d_bias = error
+    new_weight = weight - (learning_rate * d_weight)
+    new_bias = bias - (learning_rate * d_bias)
+    return new_weight, new_bias
+
+def get_api_status(url):
+    import requests
+    try:
+        response = requests.get(url, timeout=5)
+        return {"status": response.status_code, "online": True}
+    except:
+        return {"status": 500, "online": False}
+
+def bubble_sort(data):
+    n = len(data)
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            if data[j] > data[j + 1]:
+                data[j], data[j + 1] = data[j + 1], data[j]
+    return data
+
+def recursive_backtrack(path, options):
+    if not options:
+        return path
+    for choice in options:
+        if choice not in path:
+            path.append(choice)
+            result = recursive_backtrack(path, [o for o in options if o != choice])
+            if result: return result
+            path.pop()
+    return None
+
+def factorial_logic(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial_logic(n - 1)
+
+def filter_neural_data(raw_string):
+    import re
+    clean = re.sub(r'[^a-zA-Z0-9\s]', '', raw_string)
+    return clean.strip().lower()
+
+def compute_moving_average(prices, window=3):
+    averages = []
+    for i in range(len(prices) - window + 1):
+        segment = prices[i:i+window]
+        averages.append(sum(segment) / window)
+    return averages
