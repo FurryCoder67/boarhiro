@@ -10,7 +10,8 @@ description = "Transformer-based neural logic hunter"
 dependencies = ["torch", "requests", "rich"]
 
 [project.scripts]
-boarhiro = "boarhiro.interface:run_cli"
+boarhiro      = "boarhiro.interface:run_cli"
+trainboarhiro = "boarhiro.trainer:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
