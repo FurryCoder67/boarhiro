@@ -32,8 +32,8 @@
 [2026-05-02 08:08:45] [Trainer] Epoch     170  |  Loss: 0.4051
 [2026-05-02 08:08:48] [Trainer] Epoch     180  |  Loss: 0.3361
 [2026-05-02 08:08:48] [Hunter] Collected: Pattern: linear_regression_gradient | Timestamp: 1777723728.600768
- Loss: 0.6806
-[2026-05-02 08:08:32] [Trainer] Epoch     120  |  Loss: 0.6688
+[2026-05-02 08:08:51] [Trainer] Epoch     190  |  Loss: 0.3136
+ Loss: 0.6688
 [2026-05-02 08:08:35] [Trainer] Epoch     130  |  Loss: 0.5647
 [2026-05-02 08:08:38] [Trainer] Epoch     140  |  Loss: 0.5493
 [2026-05-02 08:08:40] [Trainer] Epoch     150  |  Loss: 0.4926
@@ -41,3 +41,4 @@
 [2026-05-02 08:08:45] [Trainer] Epoch     170  |  Loss: 0.4051
 [2026-05-02 08:08:48] [Trainer] Epoch     180  |  Loss: 0.3361
 [2026-05-02 08:08:48] [Hunter] Collected: Pattern: linear_regression_gradient | Timestamp: 1777723728.600768
+[2026-05-02 08:08:51] [Trainer] Epoch     190  |  Loss: 0.3136
