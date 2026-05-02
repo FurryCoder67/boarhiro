@@ -1,3 +1,4 @@
 [console_scripts]
 boarhiro = boarhiro.interface:run_cli
+stopboarhiro = boarhiro.stopper:main
 trainboarhiro = boarhiro.trainer:main

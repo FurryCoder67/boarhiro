@@ -3,6 +3,7 @@ pyproject.toml
 setup.py
 src/boarhiro/__init__.py
 src/boarhiro/interface.py
+src/boarhiro/stopper.py
 src/boarhiro/trainer.py
 src/boarhiro.egg-info/PKG-INFO
 src/boarhiro.egg-info/SOURCES.txt
