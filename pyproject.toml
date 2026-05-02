@@ -12,6 +12,7 @@ dependencies = ["torch", "requests", "rich"]
 [project.scripts]
 boarhiro      = "boarhiro.interface:run_cli"
 trainboarhiro = "boarhiro.trainer:main"
+stopboarhiro  = "boarhiro.stopper:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
