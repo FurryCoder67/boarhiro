@@ -281,8 +281,9 @@ def run_cli():
     threading.Thread(
         target=lambda: check_for_updates(silent=False),
         daemon=True
-    ).start()────
-    with Live(
+    ).start()
+
+    # ── Start all background services ─────────────────────────────────
         Spinner("dots", text=Text(" Starting services...", style="dim cyan")),
         console=console, transient=True,
     ):
