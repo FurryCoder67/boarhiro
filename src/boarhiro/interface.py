@@ -284,6 +284,7 @@ def run_cli():
     ).start()
 
     # ── Start all background services ─────────────────────────────────
+    with Live(
         Spinner("dots", text=Text(" Starting services...", style="dim cyan")),
         console=console, transient=True,
     ):
