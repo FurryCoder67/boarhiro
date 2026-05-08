@@ -107,7 +107,7 @@ def _pythonw() -> str:
 
 def _spawn(cmd: list, log_name: str):
     root = _project_root()
-    log  = open(os.path.join(root, log_name), "a")
+    log  = open(os.path.join(root, log_name), "a", encoding="utf-8")
     kwargs = dict(cwd=root, stdout=log, stderr=subprocess.STDOUT, close_fds=True)
     if sys.platform == "win32":
         kwargs["creationflags"] = (
