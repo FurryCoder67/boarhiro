@@ -283,6 +283,27 @@ def run_cli():
         daemon=True
     ).start()
 
+    # ── Download pre-trained model if missing ─────────────────────────────
+    from boarhiro.downloader import ensure_model, model_exists
+    if not model_exists():
+        console.print(Panel(
+            "[yellow]No trained model found.[/yellow]\n"
+            "Downloading pre-trained model from GitHub...",
+            style="yellow", box=box.ROUNDED,
+        ))
+        ok = ensure_model(show_progress=True)
+        if ok:
+            console.print(Panel(
+                "[green]Model downloaded successfully.[/green]",
+                style="dim green", box=box.ROUNDED,
+            ))
+        else:
+            console.print(Panel(
+                "[yellow]Could not download model. Starting with untrained model.[/yellow]\n"
+                "[dim]Run trainboarhiro to train locally.[/dim]",
+                style="yellow", box=box.ROUNDED,
+            ))
+
     # ── Start all background services ─────────────────────────────────
     with Live(
         Spinner("dots", text=Text(" Starting services...", style="dim cyan")),
