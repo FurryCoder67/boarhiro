@@ -224,7 +224,7 @@ def print_status(url: str):
     # Log tail
     log_path = os.path.join(_project_root(), "boarhiro_train.log")
     if os.path.exists(log_path):
-        with open(log_path, encoding="utf-8") as f:
+        with open(log_path, encoding="utf-8", errors="replace") as f:
             tail = f.readlines()[-3:]
         lines.append("")
         lines.append("[dim]Last training log:[/dim]")
