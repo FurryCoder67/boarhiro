@@ -158,3 +158,5 @@ BOARHIRO: CUDA is NVIDIA's parallel computing platform. If you have an NVIDIA GP
 User: what is adamw?
 BOARHIRO: AdamW is the optimizer I use. It's an improved version of Adam that decouples weight decay from the gradient update, leading to better generalization.
 
+
+Pattern: linear_regression_gradient | Timestamp: 1778239224.789492
