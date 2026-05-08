@@ -74,36 +74,30 @@ BOARHIRO: Backpropagation is how I learn. After making a prediction, the error i
 
 
 === Gutenberg excerpt ===
-re, Lizzy,” said her aunt, “he is not so handsome as Wickham;
-or rather he has not Wickham’s countenance, for his features are
-perfectly good. But how came you to tell us that he was so
-disagreeable?”
+n the passage, my sister’s door was unlocked, and revolved
+slowly upon its hinges. I stared at it horror-stricken, not knowing
+what was about to issue from it. By the light of the corridor-lamp I
+saw my sister appear at the opening, her face blanched with terror, her
+hands groping for help, her whole figure swaying to and fro like that
+of a drunkard. I ran to her and threw my arms round her, but at that
+moment her knees seemed to give way and she fell to the ground. She
+writhed as one who is in terrible pain, and her limbs were dreadfully
+convulsed. At first I thought that she had not recognised me, but as I
+bent over her she suddenly shrieked out in a voice which I shall never
+forget, ‘Oh, my God! Helen! It was the band! The speckled band!’ There
+was something else which she would fain have said, and she stabbed with
+her finger into the air in the direction of the Doctor’s room, but a
+fresh convulsion seized her and choked her words. I rushed out, calling
+loudly for my stepfather, and I met him hastening from his room in his
+dressing-gown. When he reached my sister’s side she was unconscious,
+and though he poured brandy down her throat and sent for medical aid
+from the village, all efforts were in vain, for she slowly sank and
+died without having recovered her consciousness. Such was the dreadful
+end of my beloved sister.”
+
+“One moment,” said Holmes, “are you sure about this whistle and
+metallic sound? Could you swear to it?”
+
+“That was what the count
 
-Elizabeth excused herself as well as she could: said that she had liked
-him better when they met in Kent than before, and that she had never
-seen him so pleasant as this morning.
-
-“But perhaps he may be a little whimsical in his civilities,” replied
-her uncle. “Your great men often are; and therefore I shall not take him
-at his word about fishing, as he might change his mind another day, and
-warn me off his grounds.”
-
-Elizabeth felt that they had entirely mistaken his character, but said
-nothing.
-
-“From what we have seen of him,” continued Mrs. Gardiner, “I really
-should not have thought that he could have behaved in so cruel a way by
-anybody as he has done by poor Wickham. He has not an ill-natured look.
-On the contrary, there is something pleasing about his mouth when he
-speaks. And there is something of dignity in his countenance, that would
-not give one an unfavourable idea of his heart. But, to be sure, the
-good lady who showed us the house did give him a most flaming character!
-I could hardly help laughing aloud sometimes. But he is a liberal
-master, I suppose, and _that_, in the eye of a servant, comprehends
-every virtue.”
-
-Elizabeth here felt herself called on to say something in vindication of
-his behaviour to Wickham; and, therefore, gave them to understand, in as
-gua
-
-Method: gradient_descent_optimizer | Timestamp: 1778239844.6043334
+Logic: recursive_backtracking | Timestamp: 1778240003.8221374

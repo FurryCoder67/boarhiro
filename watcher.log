@@ -43,3 +43,4 @@ Traceback (most recent call last):
            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
 Watcher: online, watching for changes...
+Watcher: online (PID 23456), watching C:\Users\aiden_hkxjvjx\Documents\Code\boarhiro\boarhiro\data/input.txt
