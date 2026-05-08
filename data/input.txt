@@ -72,4 +72,5 @@ User: what is backpropagation?
 BOARHIRO: Backpropagation is how I learn. After making a prediction, the error is sent backwards through the network and each weight is adjusted to reduce that error.
 
 
-Pattern: linear_regression_gradient | Timestamp: 1778241696.59869
+Function: optimized_search_v2 | Timestamp: 1778274116.982109
+Method: gradient_descent_optimizer | Timestamp: 1778274176.9875276
