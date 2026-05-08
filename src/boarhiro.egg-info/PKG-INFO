@@ -1,8 +1,72 @@
 Metadata-Version: 2.4
 Name: boarhiro
 Version: 0.1.0
-Summary: Transformer-based neural logic hunter
+Summary: Transformer-based neural AI that trains itself and gets smarter the longer it runs
 Author: furrycoder67
+License: MIT
+Project-URL: Homepage, https://github.com/FurryCoder67/boarhiro
+Project-URL: Repository, https://github.com/FurryCoder67/boarhiro
+Keywords: ai,neural network,transformer,chatbot,machine learning
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
 Requires-Dist: torch
 Requires-Dist: requests
 Requires-Dist: rich
+Requires-Dist: packaging
+
+# BOARHIRO
+
+A transformer-based neural AI that trains itself continuously and gets smarter the longer it runs.
+
+## Install
+
+```
+pip install boarhiro
+```
+
+## Usage
+
+```
+boarhiro
+```
+
+That's it. On first run it automatically:
+- Starts a local inference server
+- Starts background training (runs forever, saves checkpoints)
+- Starts a data hunter that fetches real text from the web
+- Opens the chat interface
+
+## Commands
+
+| Command | Description |
+|---|---|
+| `help` | Show all commands |
+| `status` | Show server + trainer status |
+| `seturl <url>` | Point to a remote server |
+| `update` | Upgrade to latest version |
+| `exit` | Quit |
+
+## Train manually
+
+```
+trainboarhiro              # runs forever in background
+trainboarhiro --no-hunter  # use your own data/input.txt
+stopboarhiro               # stop background training
+```
+
+## How it works
+
+BOARHIRO is a character-level transformer trained locally on your machine. The longer it runs, the more data it collects and the better its responses get. No API keys, no cloud, no cost.
+
+## Requirements
+
+- Python 3.10+
+- PyTorch (CPU or CUDA)
+
+## License
+
+MIT
