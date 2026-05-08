@@ -84,8 +84,6 @@ def _load_model():
     model_path = os.path.join(root, "boarhiro_brain.pt")
     data_path  = os.path.join(root, "data", "input.txt")
 
-    if not os.path.exists(model_path):
-        return False, "boarhiro_brain.pt not found. Run trainboarhiro first."
     if not os.path.exists(data_path):
         return False, "data/input.txt not found."
 
@@ -103,12 +101,18 @@ def _load_model():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model  = BoarhiroModel(vocab_size).to(device)
 
-    try:
-        model.load_state_dict(
-            torch.load(model_path, map_location=device, weights_only=True)
-        )
-    except Exception as e:
-        return False, f"Could not load model weights: {e}"
+    if os.path.exists(model_path):
+        try:
+            model.load_state_dict(
+                torch.load(model_path, map_location=device, weights_only=True)
+            )
+        except RuntimeError as e:
+            # Vocab mismatch — stale checkpoint, delete and start fresh
+            print(f"[Server] Stale checkpoint detected ({e}). Deleting and starting fresh.", flush=True)
+            os.remove(model_path)
+            model = BoarhiroModel(vocab_size).to(device)
+        except Exception as e:
+            return False, f"Could not load model weights: {e}"
 
     _model = model
     _stoi  = stoi
