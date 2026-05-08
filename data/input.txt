@@ -353,3 +353,45 @@ certainly did _not_, being
 
 Logic: recursive_backtracking | Timestamp: 1778275557.150872
 Pattern: linear_regression_gradient | Timestamp: 1778275617.16555
+
+=== Gutenberg excerpt ===
+elf out, the
+way it was beating. Suddenly there was a flash of light and Tom came
+tearing by him: “Run!” said he; “run, for your life!”
+
+He needn’t have repeated it; once was enough; Huck was making thirty or
+forty miles an hour before the repetition was uttered. The boys never
+stopped till they reached the shed of a deserted slaughter-house at the
+lower end of the village. Just as they got within its shelter the storm
+burst and the rain poured down. As soon as Tom got his breath he said:
+
+“Huck, it was awful! I tried two of the keys, just as soft as I could;
+but they seemed to make such a power of racket that I couldn’t hardly
+get my breath I was so scared. They wouldn’t turn in the lock, either.
+Well, without noticing what I was doing, I took hold of the knob, and
+open comes the door! It warn’t locked! I hopped in, and shook off the
+towel, and, _Great Caesar’s Ghost!_”
+
+“What!—what’d you see, Tom?”
+
+“Huck, I most stepped onto Injun Joe’s hand!”
+
+“No!”
+
+“Yes! He was lying there, sound asleep on the floor, with his old patch
+on his eye and his arms spread out.”
+
+“Lordy, what did you do? Did he wake up?”
+
+“No, never budged. Drunk, I reckon. I just grabbed that towel and
+started!”
+
+“I’d never ’a’ thought of the towel, I bet!”
+
+“Well, I would. My aunt would make me mighty sick if I lost it.”
+
+“Say, Tom, did you see that box?”
+
+“Huck, I didn’t wait to look around. I didn’t see the box, I didn’t see
+the cross. I didn’t see anything but a bottle and a tin cup on the floor
+by Injun
