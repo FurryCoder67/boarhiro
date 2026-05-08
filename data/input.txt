@@ -72,38 +72,42 @@ User: what is backpropagation?
 BOARHIRO: Backpropagation is how I learn. After making a prediction, the error is sent backwards through the network and each weight is adjusted to reduce that error.
 
 
-Pattern: linear_regression_gradient | Timestamp: 1778240436.3620582
-Algorithm: depth_first_traversal | Timestamp: 1778240496.36272
+Method: gradient_descent_optimizer | Timestamp: 1778240616.3919117
 
 === Gutenberg excerpt ===
-sition, but he was going to
-be made unhappy, and that it should be through her means; that _she_,
-his favourite child, should be distressing him by her choice, should be
-filling him with fears and regrets in disposing of her, was a wretched
-reflection, and she sat in misery till Mr. Darcy appeared again, when,
-looking at him, she was a little relieved by his smile. In a few minutes
-he approached the table where she was sitting with Kitty; and, while
-pretending to admire her work, said in a whisper, “Go to your father; he
-wants you in the library.” She was gone directly.
+he boys were there that night, about the appointed time. They sat in
+the shadow waiting. It was a lonely place, and an hour made solemn by
+old traditions. Spirits whispered in the rustling leaves, ghosts lurked
+in the murky nooks, the deep baying of a hound floated up out of the
+distance, an owl answered with his sepulchral note. The boys were
+subdued by these solemnities, and talked little. By and by they judged
+that twelve had come; they marked where the shadow fell, and began to
+dig. Their hopes commenced to rise. Their interest grew stronger, and
+their industry kept pace with it. The hole deepened and still deepened,
+but every time their hearts jumped to hear the pick strike upon
+something, they only suffered a new disappointment. It was only a stone
+or a chunk. At last Tom said:
 
-Her father was walking about the room, looking grave and anxious.
-“Lizzy,” said he, “what are you doing? Are you out of your senses to be
-accepting this man? Have not you always hated him?”
+“It ain’t any use, Huck, we’re wrong again.”
 
-How earnestly did she then wish that her former opinions had been more
-reasonable, her expressions more moderate! It would have spared her from
-explanations and professions which it was exceedingly awkward to give;
-but they were now necessary, and she assured him, with some confusion,
-of her attachment to Mr. Darcy.
+“Well, but we _can’t_ be wrong. We spotted the shadder to a dot.”
 
-“Or, in other words, you are determined to have him. He is rich, to be
-sure, and you may have more fine clothes and fine carriages than Jane.
-But will they make you happy?”
+“I know it, but then there’s another thing.”
 
-“Have you any other objection,” said Elizabeth, “than your belief of my
-indifference?”
+“What’s that?”
 
-“None at all. We all know him to be a proud, unpleasant sort of man; but
-this would be nothing if you really liked him.”
+“Why, we only guessed at the time. Like enough it was too late or too
+early.”
 
-“I do, I do like him,” she r
+Huck dropped his shovel.
+
+“That’s it,” said he. “That’s the very trouble. We got to give this one
+up. We can’t ever tell the right time, and besides this kind of thing’s
+too awful, here this time of night with witches and ghosts a-fluttering
+around so. I feel as if something’s behind me all the time; and I’m
+afeard to turn around, becuz maybe there’s others in front a-waiting for
+a chance. I been creeping all over, ever since I got here.”
+
+“Well,
+
+Method: gradient_descent_optimizer | Timestamp: 1778240676.4070492

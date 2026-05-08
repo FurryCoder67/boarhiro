@@ -37,6 +37,7 @@ HELP_TEXT = [
     ("clear",          "Clear the terminal screen"),
     ("status",         "Show status of all services"),
     ("seturl <url>",   "Override server URL (default: localhost:5000)"),
+    ("update",         "Check for and install latest version from PyPI"),
     ("exit / quit",    "Shut down BOARHIRO"),
 ]
 
@@ -274,7 +275,13 @@ def run_cli():
     console.clear()
     print_banner()
 
-    # ── Start all background services ─────────────────────────────────────
+    # ── Check for updates in background (non-blocking) ───────────────────
+    import threading
+    from boarhiro.updater import check_for_updates
+    threading.Thread(
+        target=lambda: check_for_updates(silent=False),
+        daemon=True
+    ).start()────
     with Live(
         Spinner("dots", text=Text(" Starting services...", style="dim cyan")),
         console=console, transient=True,
@@ -345,6 +352,26 @@ def run_cli():
             print_banner()
         elif lower == "status":
             print_status(url)
+        elif lower == "update":
+            from boarhiro.updater import check_for_updates, auto_upgrade
+            with Live(
+                Spinner("dots", text=Text(" Checking for updates...", style="dim cyan")),
+                console=console, transient=True,
+            ):
+                has_update = check_for_updates(silent=True)
+            if has_update:
+                console.print(Panel(
+                    "[yellow]New version available![/yellow]\n"
+                    "Upgrading now...",
+                    style="yellow", box=box.ROUNDED,
+                ))
+                auto_upgrade()
+            else:
+                console.print(Panel(
+                    "[green]You are on the latest version.[/green]",
+                    style="dim green", box=box.ROUNDED,
+                ))
+
         elif lower.startswith("seturl "):
             url = prompt[7:].strip()
             try:
