@@ -143,3 +143,37 @@ had changed in those savage and enduring scenes.
 I performed the first part
 
 Method: gradient_descent_optimizer | Timestamp: 1778240736.4172897
+
+=== Gutenberg excerpt ===
+elevated
+out of the water; considering the unobstructed elasticity of its
+envelope; considering the unique interior of his head; it has
+hypothetically occurred to me, I say, that those mystical lung-celled
+honeycombs there may possibly have some hitherto unknown and
+unsuspected connexion with the outer air, so as to be susceptible to
+atmospheric distension and contraction. If this be so, fancy the
+irresistibleness of that might, to which the most impalpable and
+destructive of all elements contributes.
+
+Now, mark. Unerringly impelling this dead, impregnable, uninjurable
+wall, and this most buoyant thing within; there swims behind it all a
+mass of tremendous life, only to be adequately estimated as piled wood
+is—by the cord; and all obedient to one volition, as the smallest
+insect. So that when I shall hereafter detail to you all the
+specialities and concentrations of potency everywhere lurking in this
+expansive monster; when I shall show you some of his more
+inconsiderable braining feats; I trust you will have renounced all
+ignorant incredulity, and be ready to abide by this; that though the
+Sperm Whale stove a passage through the Isthmus of Darien, and mixed
+the Atlantic with the Pacific, you would not elevate one hair of your
+eye-brow. For unless you own the whale, you are but a provincial and
+sentimentalist in Truth. But clear Truth is a thing for salamander
+giants only to encounter; how small the chances for the provincials
+then? What befell the weakling youth lifting the
+
+
+=== Neural network ===
+
+
+A neural network is a group of interconnected units called neurons that send signals to one another. Neurons can be either biological cells or mathematical models. While individual neurons are simple, many of them together in a network can perform complex tasks. There are two main types of neural networks.In neuroscience, a biological neural network is a physical structure found in brains and complex nervous systems – a population of nerve cells connected by synapses.
+In machine learning, an artificial neural network is a mathematical model used to approximate nonlinear functions. Artificial neural networks are used to solve artificial intelligence problems.
