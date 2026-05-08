@@ -1,6 +1,10 @@
 import os
 import time
 import subprocess
+import sys
+
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 WATCH_FILE = "data/input.txt"
 
