@@ -292,3 +292,4 @@
 [2026-05-08 07:11:06] [Trainer] Epoch    1500  |  Loss: 0.0084
 [2026-05-08 07:11:06] [Trainer] Checkpoint saved at epoch 1500.
 [2026-05-08 07:11:09] [Trainer] Epoch    1510  |  Loss: 0.0044
+[2026-05-08 07:11:12] [Trainer] Epoch    1520  |  Loss: 0.0058
