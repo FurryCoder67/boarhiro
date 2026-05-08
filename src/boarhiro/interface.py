@@ -186,7 +186,7 @@ def _ping_server(url: str) -> bool:
 # ── UI helpers ────────────────────────────────────────────────────────────────
 
 def print_banner():
-    console.print(Text(BANNER, style="bold magenta"), justify="center")
+    console.print(Text(BANNER, style="bold cyan"), justify="center")
     console.print(
         Panel(
             "[bold cyan]Neural Interface v1.0[/bold cyan]  ·  "
