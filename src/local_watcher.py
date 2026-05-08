@@ -8,14 +8,14 @@ def get_file_size():
     return os.path.getsize(WATCH_FILE) if os.path.exists(WATCH_FILE) else 0
 
 def push_to_github():
-    print("📦 New logic detected! Shipping to GitHub...")
+    print("New logic detected! Shipping to GitHub...")
     subprocess.run(["git", "add", WATCH_FILE])
-    subprocess.run(["git", "commit", "-m", "BOARHIRO Auto-Update: New logic added"])
+    subprocess.run(["git", "commit", "-m", "BOARHIRO Auto-Update: New data added"])
     subprocess.run(["git", "push", "origin", "main"])
-    print("✅ Shipment delivered.")
+    print("Shipped.")
 
 def start_watcher():
-    print("⚖️ Local Watcher is online. Waiting for data...")
+    print("Local Watcher is online. Waiting for data...")
     last_size = get_file_size()
     
     while True:
