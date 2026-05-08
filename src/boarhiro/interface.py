@@ -112,7 +112,10 @@ def _pythonw() -> str:
 def _spawn(cmd: list, log_name: str):
     root = _project_root()
     log  = open(os.path.join(root, log_name), "a", encoding="utf-8")
-    kwargs = dict(cwd=root, stdout=log, stderr=subprocess.STDOUT, close_fds=True)
+    env  = os.environ.copy()
+    env["PYTHONUTF8"] = "1"          # force UTF-8 before any Python code runs
+    kwargs = dict(cwd=root, stdout=log, stderr=subprocess.STDOUT,
+                  close_fds=True, env=env)
     if sys.platform == "win32":
         kwargs["creationflags"] = (
             subprocess.DETACHED_PROCESS | subprocess.CREATE_NEW_PROCESS_GROUP

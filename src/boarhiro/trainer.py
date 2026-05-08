@@ -248,11 +248,15 @@ def main():
     if args.no_hunter:
         cmd.append("--no-hunter")
 
+    env = os.environ.copy()
+    env["PYTHONUTF8"] = "1"
+
     proc = subprocess.Popen(
         cmd,
         cwd=project_root,
         stdout=open(os.path.join(project_root, LOG_FILE), "a", encoding="utf-8"),
         stderr=subprocess.STDOUT,
+        env=env,
         creationflags=subprocess.DETACHED_PROCESS | subprocess.CREATE_NEW_PROCESS_GROUP
         if sys.platform == "win32" else 0,
         close_fds=True,
