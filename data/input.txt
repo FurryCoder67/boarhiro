@@ -75,3 +75,45 @@ BOARHIRO: Backpropagation is how I learn. After making a prediction, the error i
 Method: gradient_descent_optimizer | Timestamp: 1778239524.8414896
 Method: gradient_descent_optimizer | Timestamp: 1778239584.8442245
 Logic: recursive_backtracking | Timestamp: 1778239644.8566995
+
+=== Wilton Diptych ===
+The Wilton Diptych is a small portable diptych of two hinged panels, painted on both sides, now in the National Gallery, London. It is an extremely rare survival of a late medieval religious panel painting from England. The diptych was painted for King Richard II of England, who is depicted kneeling before the Virgin and Child in what is known as a donor portrait. He is presented to them by the English saints King Edmund the Martyr, King Edward the Confessor and patron saint, John the Baptist. The painting is an outstanding example of the International Gothic style, and the nationality of the unknown artist is probably French or English.
+
+
+=== Gutenberg excerpt ===
+em to encourage the witness at all: he kept shifting
+from one foot to the other, looking uneasily at the Queen, and in his
+confusion he bit a large piece out of his teacup instead of the
+bread-and-butter.
+
+Just at this moment Alice felt a very curious sensation, which puzzled
+her a good deal until she made out what it was: she was beginning to
+grow larger again, and she thought at first she would get up and leave
+the court; but on second thoughts she decided to remain where she was
+as long as there was room for her.
+
+“I wish you wouldn’t squeeze so,” said the Dormouse, who was sitting
+next to her. “I can hardly breathe.”
+
+“I can’t help it,” said Alice very meekly: “I’m growing.”
+
+“You’ve no right to grow _here_,” said the Dormouse.
+
+“Don’t talk nonsense,” said Alice more boldly: “you know you’re growing
+too.”
+
+“Yes, but _I_ grow at a reasonable pace,” said the Dormouse: “not in
+that ridiculous fashion.” And he got up very sulkily and crossed over
+to the other side of the court.
+
+All this time the Queen had never left off staring at the Hatter, and,
+just as the Dormouse crossed the court, she said to one of the officers
+of the court, “Bring me the list of the singers in the last concert!”
+on which the wretched Hatter trembled so, that he shook both his shoes
+off.
+
+“Give your evidence,” the King repeated angrily, “or I’ll have you
+executed, whether you’re nervous or not.”
+
+“I’m a poor man, your Majesty,” the Hatter began, in a trembling voice,
+“—and I hadn’t begun my tea—not ab
