@@ -90,3 +90,4 @@ A neural network is a group of interconnected units called neurons that send sig
 In machine learning, an artificial neural network is a mathematical model used to approximate nonlinear functions. Artificial neural networks are used to solve artificial intelligence problems.
 
 Method: gradient_descent_optimizer | Timestamp: 1778274477.034227
+Algorithm: depth_first_traversal | Timestamp: 1778274537.0354125
