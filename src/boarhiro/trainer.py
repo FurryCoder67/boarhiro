@@ -155,7 +155,7 @@ def train_forever(skip_hunter: bool = False):
     log(f"[Pipeline] Data ready ({size} bytes). Building model...")
 
     # ── Initial model build ───────────────────────────────────────────────────
-    with open(DATA_FILE, "r", encoding="utf-8") as f:
+    with open(DATA_FILE, "r", encoding="utf-8", errors="replace") as f:
         text = f.read()
 
     stoi, itos, vocab_size = build_vocab(text)
@@ -183,7 +183,7 @@ def train_forever(skip_hunter: bool = False):
         # Re-read data every SAVE_EVERY epochs to pick up new hunter data
         if epoch % SAVE_EVERY == 0:
             try:
-                with open(DATA_FILE, "r", encoding="utf-8") as f:
+                with open(DATA_FILE, "r", encoding="utf-8", errors="replace") as f:
                     new_text = f.read()
                 new_stoi, _, new_vocab = build_vocab(new_text)
                 if new_vocab == vocab_size:          # vocab unchanged — safe reload

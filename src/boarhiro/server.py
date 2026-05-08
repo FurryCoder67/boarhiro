@@ -87,7 +87,7 @@ def _load_model():
     if not os.path.exists(data_path):
         return False, "data/input.txt not found."
 
-    with open(data_path, encoding="utf-8") as f:
+    with open(data_path, encoding="utf-8", errors="replace") as f:
         text = f.read()
 
     if not text.strip():

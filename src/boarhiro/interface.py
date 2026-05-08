@@ -57,7 +57,7 @@ def _load_url() -> str:
     for candidate in ["link.txt", "src/link.txt"]:
         path = os.path.join(root, candidate)
         if os.path.exists(path):
-            with open(path, encoding="utf-8") as f:
+            with open(path, encoding="utf-8", errors="replace") as f:
                 saved = f.read().strip()
             if saved:
                 return saved
