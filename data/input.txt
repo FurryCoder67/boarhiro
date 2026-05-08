@@ -72,16 +72,13 @@ User: what is backpropagation?
 BOARHIRO: Backpropagation is how I learn. After making a prediction, the error is sent backwards through the network and each weight is adjusted to reduce that error.
 
 
-Function: optimized_search_v2 | Timestamp: 1778274116.982109
-Method: gradient_descent_optimizer | Timestamp: 1778274176.9875276
-Logic: recursive_backtracking | Timestamp: 1778274236.9984088
-Pattern: linear_regression_gradient | Timestamp: 1778274297.008163
+Logic: recursive_backtracking | Timestamp: 1778274777.0686142
 
-=== Lyn (gamer) ===
-Park "Lyn" June (Korean: 박준) is a professional StarCraft II Terran player and former Warcraft III Orc player from South Korea. Lyn was a successful Warcraft III player before transitioning to StarCraft II. He is the only player to have won almost all of the premier tournaments, including the World Cyber Games, Electronic Sports World Cup, BlizzCon and Intel Extreme Masters. The only two premier tournaments which he has never won are the World e-Sports Games and International E-Sports Festival, instead placing second in the World e-Sports Games in 2008 and 2010, and in the International E-Sports Festival in 2007. The total prize money Lyn has won playing Warcraft 3 is behind only Jang "moon" Jae-ho.
+=== Transformer (deep learning) ===
+In deep learning, the transformer is a family of artificial neural network architectures based on the multi-head attention mechanism, in which text is converted to numerical representations called tokens, and each token is converted into a vector via lookup from a word embedding table. At each layer, each token is then contextualized within the scope of the context window with other (unmasked) tokens via a parallel multi-head attention mechanism, allowing the signal for key tokens to be amplified and less important tokens to be diminished. Because self-attention alone is permutation-invariant, transformers inject positional information, typically through positional encodings or learned positional embeddings, so token order can affect the output.
 
-Algorithm: depth_first_traversal | Timestamp: 1778274357.024965
-Function: optimized_search_v2 | Timestamp: 1778274417.031821
+Logic: recursive_backtracking | Timestamp: 1778274837.0701735
+Algorithm: depth_first_traversal | Timestamp: 1778274897.0765917
 
 === Neural network ===
 
@@ -89,5 +86,40 @@ Function: optimized_search_v2 | Timestamp: 1778274417.031821
 A neural network is a group of interconnected units called neurons that send signals to one another. Neurons can be either biological cells or mathematical models. While individual neurons are simple, many of them together in a network can perform complex tasks. There are two main types of neural networks.In neuroscience, a biological neural network is a physical structure found in brains and complex nervous systems – a population of nerve cells connected by synapses.
 In machine learning, an artificial neural network is a mathematical model used to approximate nonlinear functions. Artificial neural networks are used to solve artificial intelligence problems.
 
-Method: gradient_descent_optimizer | Timestamp: 1778274477.034227
-Algorithm: depth_first_traversal | Timestamp: 1778274537.0354125
+Function: optimized_search_v2 | Timestamp: 1778274957.0815678
+
+=== Gutenberg excerpt ===
+d exchange willingly the charming climate of Florida for the
+lonely life of an English provincial town. His extreme love of solitude
+in England suggests the idea that he was in fear of someone or
+something, so we may assume as a working hypothesis that it was fear of
+someone or something which drove him from America. As to what it was he
+feared, we can only deduce that by considering the formidable letters
+which were received by himself and his successors. Did you remark the
+postmarks of those letters?”
+
+“The first was from Pondicherry, the second from Dundee, and the third
+from London.”
+
+“From East London. What do you deduce from that?”
+
+“They are all seaports. That the writer was on board of a ship.”
+
+“Excellent. We have already a clue. There can be no doubt that the
+probability—the strong probability—is that the writer was on board of a
+ship. And now let us consider another point. In the case of
+Pondicherry, seven weeks elapsed between the threat and its fulfilment,
+in Dundee it was only some three or four days. Does that suggest
+anything?”
+
+“A greater distance to travel.”
+
+“But the letter had also a greater distance to come.”
+
+“Then I do not see the point.”
+
+“There is at least a presumption that the vessel in which the man or
+men are is a sailing-ship. It looks as if they always send their
+singular warning or token before them when starting upon their mission.
+You see how quickly the deed followed the sign when it came from
+Dundee. If they
