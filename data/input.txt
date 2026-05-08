@@ -72,85 +72,146 @@ User: what is backpropagation?
 BOARHIRO: Backpropagation is how I learn. After making a prediction, the error is sent backwards through the network and each weight is adjusted to reduce that error.
 
 
-Algorithm: depth_first_traversal | Timestamp: 1778240916.4556847
-Pattern: linear_regression_gradient | Timestamp: 1778240976.467149
-
-=== 1998 Shimonoseki Trial ===
-The Shimonoseki Trial  was a legal trial between three Korean comfort women victims and seven forced laborers, part of the Korean Women's Volunteer Labor Corps from the City of Busan and the Japanese Government from 1992 to 1998. The trial marked the first-ever lawsuit against the Japanese government by Korean victims of the comfort women and forced labor systems within the Japanese legal system and resulted in the Japanese judicial system admitting that the comfort women system was the fault of the Japanese government. The initial ruling made by the Shimonoseki Branch of the Yamaguchi Prefectural Court on April 27, 1998 marked an end to the nearly six year-long battle in the Prefectural Court that started on December 25, 1992 ruling in favor of the plaintiffs. The final ruling of the case was made by the Supreme Court of Japan on March 25, 2003. It upheld the Appeals Court of Hiroshima's ruling rejecting the ruling of the Prefectural Court and denying financial compensation for the plaintiffs while acknowledging the reality of the comfort women system and its victims.
-
-Method: gradient_descent_optimizer | Timestamp: 1778241036.479059
 
 === Gutenberg excerpt ===
-y.
+said, and silence was very awkward. She wanted to talk, but
+there seemed an embargo on every subject. At last she recollected that
+she had been travelling, and they talked of Matlock and Dovedale with
+great perseverance. Yet time and her aunt moved slowly--and her patience
+and her ideas were nearly worn out before the _tête-à-tête_ was over.
 
-“No. Foreign!” cried Carton, striking his open hand on the table, as a
-light broke clearly on his mind. “Cly! Disguised, but the same man. We
-had that man before us at the Old Bailey.”
+On Mr. and Mrs. Gardiner’s coming up they were all pressed to go into
+the house and take some refreshment; but this was declined, and they
+parted on each side with the utmost politeness. Mr. Darcy handed the
+ladies into the carriage; and when it drove off, Elizabeth saw him
+walking slowly towards the house.
 
-“Now, there you are hasty, sir,” said Barsad, with a smile that gave his
-aquiline nose an extra inclination to one side; “there you really give
-me an advantage over you. Cly (who I will unreservedly admit, at this
-distance of time, was a partner of mine) has been dead several years. I
-attended him in his last illness. He was buried in London, at the church
-of Saint Pancras-in-the-Fields. His unpopularity with the blackguard
-multitude at the moment prevented my following his remains, but I helped
-to lay him in his coffin.”
+The observations of her uncle and aunt now began; and each of them
+pronounced him to be infinitely superior to anything they had expected.
 
-Here, Mr. Lorry became aware, from where he sat, of a most remarkable
-goblin shadow on the wall. Tracing it to its source, he discovered it
-to be caused by a sudden extraordinary rising and stiffening of all the
-risen and stiff hair on Mr. Cruncher’s head.
+“He is perfectly well-behaved, polite, and unassuming,” said her uncle.
 
-“Let us be reasonable,” said the spy, “and let us be fair. To show you
-how mistaken you are, and what an unfounded assumption yours is, I will
-lay before you a certificate of Cly’s burial, which I happened to have
-carried in my pocket-book,” with a hurried hand he produced and opened
-it, “ever since. There it is. Oh, look at it, look at it! You may take
-it in your hand; it’s no forgery.”
+“There _is_ something a little stately in him, to be sure,” replied her
+aunt; “but it is confined to his air, and is not unbecoming. I can now
+say with the housekeeper, that though some people may call him proud,
+_I_ have seen nothing of it.”
 
-Here, Mr. Lorry perceived the reflection on the wall to elongate, and
-Mr. Cruncher rose and stepped forward. His hair could not hav
+“I was never more surprised than by his behaviour to us. It was more
+than civil; it was really attentive; and there was no necessity for such
+attention. His acquaintance with Elizabeth was very trifling.”
 
-Method: gradient_descent_optimizer | Timestamp: 1778241096.493696
+“To be sure, Lizzy,” said her aunt, “he is not so handsome as Wickham;
+or rather he has not Wickham’s countenance, for his features are
+perfectly good. But how came you to tell us t
+
+Function: optimized_search_v2 | Timestamp: 1778241276.51105
+Algorithm: depth_first_traversal | Timestamp: 1778241336.5127137
 
 === Gutenberg excerpt ===
-e leaves and dried sticks, gathering up what
-seemed to me to be dust into an envelope and examining with his lens
-not only the ground but even the bark of the tree as far as he could
-reach. A jagged stone was lying among the moss, and this also he
-carefully examined and retained. Then he followed a pathway through the
-wood until he came to the high road, where all traces were lost.
-
-“It has been a case of considerable interest,” he remarked, returning
-to his natural manner. “I fancy that this grey house on the right must
-be the lodge. I think that I will go in and have a word with Moran, and
-perhaps write a little note. Having done that, we may drive back to our
-luncheon. You may walk to the cab, and I shall be with you presently.”
-
-It was about ten minutes before we regained our cab and drove back into
-Ross, Holmes still carrying with him the stone which he had picked up
-in the wood.
-
-“This may interest you, Lestrade,” he remarked, holding it out. “The
-murder was done with it.”
-
-“I see no marks.”
-
-“There are none.”
-
-“How do you know, then?”
-
-“The grass was growing under it. It had only lain there a few days.
-There was no sign of a place whence it had been taken. It corresponds
-with the injuries. There is no sign of any other weapon.”
-
-“And the murderer?”
-
-“Is a tall man, left-handed, limps with the right leg, wears
-thick-soled shooting-boots and a grey cloak, smokes Indian cigars, uses
-a cigar-holder, and carries a blunt pen-knife in his poc
+e garden: the roses
+growing on it were white, but there were three gardeners at it, busily
+painting them red. Alice thought this a very curious thing, and she
+went nearer to watch them, and just as she came up to them she heard
+one of them say, “Look out now, Five! Don’t go splashing paint over me
+like that!”
 
-Algorithm: depth_first_traversal | Timestamp: 1778241156.5036645
+“I couldn’t help it,” said Five, in a sulky tone; “Seven jogged my
+elbow.”
+
+On which Seven looked up and said, “That’s right, Five! Always lay the
+blame on others!”
+
+“_You’d_ better not talk!” said Five. “I heard the Queen say only
+yesterday you deserved to be beheaded!”
+
+“What for?” said the one who had spoken first.
+
+“That’s none of _your_ business, Two!” said Seven.
+
+“Yes, it _is_ his business!” said Five, “and I’ll tell him—it was for
+bringing the cook tulip-roots instead of onions.”
+
+Seven flung down his brush, and had just begun “Well, of all the unjust
+things—” when his eye chanced to fall upon Alice, as she stood watching
+them, and he checked himself suddenly: the others looked round also,
+and all of them bowed low.
+
+“Would you tell me,” said Alice, a little timidly, “why you are
+painting those roses?”
+
+Five and Seven said nothing, but looked at Two. Two began in a low
+voice, “Why the fact is, you see, Miss, this here ought to have been a
+_red_ rose-tree, and we put a white one in by mistake; and if the Queen
+was to find it out, we should all have our heads cut off, you know. So
+you see, Miss, we’re doing our best, afore she comes, to—” At this
+moment Five, who
+
+
+=== Gutenberg excerpt ===
+llured by the perfidious silences that before had
+attended us, we found ourselves launched into this tormented sea, where
+guilty beings transformed into those fowls and these fish, seemed
+condemned to swim on everlastingly without any haven in store, or beat
+that black air without any horizon. But calm, snow-white, and
+unvarying; still directing its fountain of feathers to the sky; still
+beckoning us on from before, the solitary jet would at times be
+descried.
+
+During all this blackness of the elements, Ahab, though assuming for
+the time the almost continual command of the drenched and dangerous
+deck, manifested the gloomiest reserve; and more seldom than ever
+addressed his mates. In tempestuous times like these, after everything
+above and aloft has been secured, nothing more can be done but
+passively to await the issue of the gale. Then Captain and crew become
+practical fatalists. So, with his ivory leg inserted into its
+accustomed hole, and with one hand firmly grasping a shroud, Ahab for
+hours and hours would stand gazing dead to windward, while an
+occasional squall of sleet or snow would all but congeal his very
+eyelashes together. Meantime, the crew driven from the forward part of
+the ship by the perilous seas that burstingly broke over its bows,
+stood in a line along the bulwarks in the waist; and the better to
+guard against the leaping waves, each man had slipped himself into a
+sort of bowline secured to the rail, in which he swung as in a loosened
+belt. Few or no word
+
+Logic: recursive_backtracking | Timestamp: 1778241396.5242734
+Pattern: linear_regression_gradient | Timestamp: 1778241456.553976
+
+=== Gutenberg excerpt ===
+een kept for you.”
+
+“Thank ye, my dear. The precious child is safe in bed?”
+
+“And sleeping soundly.”
+
+“That’s right; all safe and well! I don’t know why anything should be
+otherwise than safe and well here, thank God; but I have been so put out
+all day, and I am not as young as I was! My tea, my dear! Thank ye. Now,
+come and take your place in the circle, and let us sit quiet, and hear
+the echoes about which you have your theory.”
+
+“Not a theory; it was a fancy.”
+
+“A fancy, then, my wise pet,” said Mr. Lorry, patting her hand. “They
+are very numerous and very loud, though, are they not? Only hear them!”
+
+Headlong, mad, and dangerous footsteps to force their way into anybody’s
+life, footsteps not easily made clean again if once stained red, the
+footsteps raging in Saint Antoine afar off, as the little circle sat in
+the dark London window.
+
+Saint Antoine had been, that morning, a vast dusky mass of scarecrows
+heaving to and fro, with frequent gleams of light above the billowy
+heads, where steel blades and bayonets shone in the sun. A tremendous
+roar arose from the throat of Saint Antoine, and a forest of naked arms
+struggled in the air like shrivelled branches of trees in a winter wind:
+all the fingers convulsively clutching at every weapon or semblance of a
+weapon that was thrown up from the depths below, no matter how far off.
+
+Who gave them out, whence they last came, where they began, through what
+agency they crookedly quivered and jerked, scores at a time, over the
+heads o
+
 
 === Neural network ===
 
@@ -158,41 +219,34 @@ Algorithm: depth_first_traversal | Timestamp: 1778241156.5036645
 A neural network is a group of interconnected units called neurons that send signals to one another. Neurons can be either biological cells or mathematical models. While individual neurons are simple, many of them together in a network can perform complex tasks. There are two main types of neural networks.In neuroscience, a biological neural network is a physical structure found in brains and complex nervous systems – a population of nerve cells connected by synapses.
 In machine learning, an artificial neural network is a mathematical model used to approximate nonlinear functions. Artificial neural networks are used to solve artificial intelligence problems.
 
-Function: optimized_search_v2 | Timestamp: 1778241216.509578
-
-=== Smokers Outside the Hospital Doors ===
-"Smokers Outside the Hospital Doors" is the first single from English rock band Editors' second album, An End Has a Start (2007). It was released as a digital download on 11 June 2007 and as a physical single through CD and vinyl on 18 June 2007 in the United Kingdom. It peaked at number seven on the UK Singles Chart in its first week of physical release and became a moderate to minor hit in Belgium, Ireland, and the Netherlands. A single was also released in the United States. The song was set to debut on Zane Lowe's show on 30 April; however, the song leaked on the internet a few days preceding.
-
-
-=== National Oceanography Centre Southampton ===
-The National Oceanography Centre Southampton (NOCS) is a centre for research, teaching, and technology development in Ocean and Earth science. NOCS was created in 1995, jointly between the University of Southampton and the UK Natural Environment Research Council and is located within the port of Southampton at a purpose-built dockside campus with modern facilities. In 2010 the university and NERC components demerged, and the NERC-managed component became the National Oceanography Centre. The two components of NOCS continue close collaboration through the jointly run Graduate School, shared research facilities and laboratories, complementary research groups, and many joint research grants and publications. The university component “Ocean and Earth Science, National Oceanography Centre Southampton” (OES) is part of the Faculty of Environmental and Life Sciences, (FELS). It was ranked 46th in the world for Earth and Marine Sciences by the QS World University Rankings in 2019.
-
 
 === Gutenberg excerpt ===
-key—the tongue, which is glued, as it were, to the floor of the
-mouth. It is very fat and tender, and apt to tear in pieces in hoisting
-it on deck. This particular tongue now before us; at a passing glance I
-should say it was a six-barreler; that is, it will yield you about that
-amount of oil.
+as I am! It removes more than
+half my misfortune, and I feel as if I could die in peace now that my
+innocence is acknowledged by you, dear lady, and your cousin.”
 
-Ere this, you must have plainly seen the truth of what I started
-with—that the Sperm Whale and the Right Whale have almost entirely
-different heads. To sum up, then: in the Right Whale’s there is no
-great well of sperm; no ivory teeth at all; no long, slender mandible
-of a lower jaw, like the Sperm Whale’s. Nor in the Sperm Whale are
-there any of those blinds of bone; no huge lower lip; and scarcely
-anything of a tongue. Again, the Right Whale has two external
-spout-holes, the Sperm Whale only one.
+Thus the poor sufferer tried to comfort others and herself. She indeed
+gained the resignation she desired. But I, the true murderer, felt the
+never-dying worm alive in my bosom, which allowed of no hope or
+consolation. Elizabeth also wept and was unhappy, but hers also was
+the misery of innocence, which, like a cloud that passes over the fair
+moon, for a while hides but cannot tarnish its brightness. Anguish and
+despair had penetrated into the core of my heart; I bore a hell within
+me which nothing could extinguish. We stayed several hours with
+Justine, and it was with great difficulty that Elizabeth could tear
+herself away. “I wish,” cried she, “that I were to die with you; I
+cannot live in this world of misery.”
 
-Look your last, now, on these venerable hooded heads, while they yet
-lie together; for one will soon sink, unrecorded, in the sea; the other
-will not be very long in following.
+Justine assumed an air of cheerfulness, while she with difficulty
+repressed her bitter tears. She embraced Elizabeth and said in a voice
+of half-suppressed emotion, “Farewell, sweet lady, dearest Elizabeth,
+my beloved and only friend; may heaven, in its bounty, bless and
+preserve you; may this be the last misfortune that you will ever
+suffer! Live, and be happy, and make others so.”
 
-Can you catch the expression of the Sperm Whale’s there? It is the same
-he died with, only some of the longer wrinkles in the forehead seem now
-faded away. I think his broad brow to be full of a prairie-like
-placidity, born of a speculative indifference as to death. But mark the
-other head’s expression. See that amazing lower lip, pressed by
-accident against the vessel’s side, so as firmly to embrace the jaw.
-Does not this whole head seem to speak of an enormous practical
-resolution in facing death? This Right Whale
+And on the morrow Justine died. Elizabeth’s heart-rending eloquence
+failed to move the judges from their settled conviction in the
+criminality of the saintly sufferer. My passionate and indignant
+appeals were lost upon them
+
+Method: gradient_descent_optimizer | Timestamp: 1778241516.5651348
