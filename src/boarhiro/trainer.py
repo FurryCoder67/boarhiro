@@ -87,13 +87,21 @@ def run_hunter_thread(stop_event: threading.Event):
     log("[Hunter] Stopped.")
 
 # ── Bridge ────────────────────────────────────────────────────────────────────
+def _project_root() -> str:
+    """Always returns the project root regardless of cwd."""
+    return os.path.dirname(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    )
+
 def _read_url() -> str:
     env_url = os.environ.get("BOARHIRO_URL", "").strip()
     if env_url:
         return env_url
+    root = _project_root()
     for candidate in ["link.txt", "src/link.txt"]:
-        if os.path.exists(candidate):
-            with open(candidate, encoding="utf-8") as f:
+        path = os.path.join(root, candidate)
+        if os.path.exists(path):
+            with open(path, encoding="utf-8") as f:
                 url = f.read().strip()
             if url:
                 return url

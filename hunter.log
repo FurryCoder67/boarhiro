@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\aiden_hkxjvjx\Documents\Code\boarhiro\boarhiro\src\auto_generator.py", line 28, in <module>
+    run_hunter()
+    ~~~~~~~~~~^^
+  File "C:\Users\aiden_hkxjvjx\Documents\Code\boarhiro\boarhiro\src\auto_generator.py", line 14, in run_hunter
+    print("\U0001f3f9 Hunter is active. Searching for logic...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f3f9' in position 0: character maps to <undefined>
