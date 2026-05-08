@@ -99,6 +99,10 @@ def _server_running() -> bool:
     pid = _read_pid(SERVER_PID_FILE)
     return pid is not None and _pid_alive(pid)
 
+def _watcher_running() -> bool:
+    pid = _read_pid("boarhiro_watcher.pid")
+    return pid is not None and _pid_alive(pid)
+
 # ── Background launchers ──────────────────────────────────────────────────────
 
 def _pythonw() -> str:
@@ -146,8 +150,11 @@ def _start_ecosystem():
     # ── Watcher ───────────────────────────────────────────────────────────
     watcher = os.path.join(root, "src", "local_watcher.py")
     if os.path.exists(watcher):
-        proc = _spawn([_pythonw(), watcher], "watcher.log")
-        lines.append(f"[dim]Watcher   :[/dim] [green]started[/green] (PID {proc.pid})")
+        if _watcher_running():
+            lines.append("[dim]Watcher   :[/dim] [yellow]already running[/yellow]")
+        else:
+            proc = _spawn([_pythonw(), watcher], "watcher.log")
+            lines.append(f"[dim]Watcher   :[/dim] [green]started[/green] (PID {proc.pid})")
 
     return lines
 
