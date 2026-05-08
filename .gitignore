@@ -19,6 +19,12 @@ env/
 boarhiro_brain.pt
 boarhiro_train.log
 boarhiro_train.pid
+trainer.log
+hunter.log
+watcher.log
+server.log
+*.pid
+*.log
 
 # IDE
 .vscode/
