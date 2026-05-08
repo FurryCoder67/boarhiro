@@ -79,3 +79,5 @@ Pattern: linear_regression_gradient | Timestamp: 1778274297.008163
 
 === Lyn (gamer) ===
 Park "Lyn" June (Korean: 박준) is a professional StarCraft II Terran player and former Warcraft III Orc player from South Korea. Lyn was a successful Warcraft III player before transitioning to StarCraft II. He is the only player to have won almost all of the premier tournaments, including the World Cyber Games, Electronic Sports World Cup, BlizzCon and Intel Extreme Masters. The only two premier tournaments which he has never won are the World e-Sports Games and International E-Sports Festival, instead placing second in the World e-Sports Games in 2008 and 2010, and in the International E-Sports Festival in 2007. The total prize money Lyn has won playing Warcraft 3 is behind only Jang "moon" Jae-ho.
+
+Algorithm: depth_first_traversal | Timestamp: 1778274357.024965
