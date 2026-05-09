@@ -184,3 +184,36 @@ So they chose a new spot and began again. The labor dragg
 
 Pattern: linear_regression_gradient | Timestamp: 1778341749.0944307
 Function: optimized_search_v2 | Timestamp: 1778341809.105379
+
+=== Gutenberg excerpt ===
+mine that I must look at everything with reference to
+my own special subject. You look at these scattered houses, and you are
+impressed by their beauty. I look at them, and the only thought which
+comes to me is a feeling of their isolation and of the impunity with
+which crime may be committed there.”
+
+“Good heavens!” I cried. “Who would associate crime with these dear old
+homesteads?”
+
+“They always fill me with a certain horror. It is my belief, Watson,
+founded upon my experience, that the lowest and vilest alleys in London
+do not present a more dreadful record of sin than does the smiling and
+beautiful countryside.”
+
+“You horrify me!”
+
+“But the reason is very obvious. The pressure of public opinion can do
+in the town what the law cannot accomplish. There is no lane so vile
+that the scream of a tortured child, or the thud of a drunkard’s blow,
+does not beget sympathy and indignation among the neighbours, and then
+the whole machinery of justice is ever so close that a word of
+complaint can set it going, and there is but a step between the crime
+and the dock. But look at these lonely houses, each in its own fields,
+filled for the most part with poor ignorant folk who know little of the
+law. Think of the deeds of hellish cruelty, the hidden wickedness which
+may go on, year in, year out, in such places, and none the wiser. Had
+this lady who appeals to us for help gone to live in Winchester, I
+should never have had a fear for her. It is the five miles of
+
+Method: gradient_descent_optimizer | Timestamp: 1778341869.1164753
+Function: optimized_search_v2 | Timestamp: 1778341929.1187553
