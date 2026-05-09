@@ -2,18 +2,370 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>BOARHIRO | Installation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOARHIRO — Logic. Speed. Minimalism.</title>
+    <meta name="description" content="A transformer-based neural AI that trains itself continuously and gets smarter the longer it runs.">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
-        body { background: #0a0a0a; color: #e5e5e5; font-family: sans-serif; }
-        .terminal { background: #121212; border: 1px solid #222; border-radius: 8px; }
+        :root {
+            --bg: #07070a;
+            --panel: #0d0d12;
+            --border: rgba(255,255,255,0.08);
+            --text: #e7e7ea;
+            --muted: #8a8a93;
+            --accent: #22d3ee;
+            --accent-2: #a855f7;
+        }
+
+        * { box-sizing: border-box; }
+        html, body { margin: 0; padding: 0; }
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Animated gradient orbs */
+        .orb {
+            position: fixed;
+            border-radius: 50%;
+            filter: blur(120px);
+            opacity: 0.35;
+            z-index: 0;
+            pointer-events: none;
+            animation: float 18s ease-in-out infinite;
+        }
+        .orb-1 { width: 500px; height: 500px; background: #22d3ee; top: -200px; left: -150px; }
+        .orb-2 { width: 600px; height: 600px; background: #a855f7; top: 30%; right: -200px; animation-delay: -6s; }
+        .orb-3 { width: 450px; height: 450px; background: #2563eb; bottom: -150px; left: 30%; animation-delay: -12s; }
+
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33%      { transform: translate(40px, -30px) scale(1.05); }
+            66%      { transform: translate(-30px, 40px) scale(0.95); }
+        }
+
+        /* Subtle grid overlay */
+        .grid-bg {
+            position: fixed;
+            inset: 0;
+            background-image:
+                linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+            background-size: 60px 60px;
+            mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .content { position: relative; z-index: 1; }
+
+        .mono { font-family: 'JetBrains Mono', ui-monospace, monospace; }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #fff 0%, #22d3ee 50%, #a855f7 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .panel {
+            background: rgba(13, 13, 18, 0.6);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+
+        .terminal {
+            background: linear-gradient(180deg, rgba(20,20,26,0.85), rgba(10,10,14,0.85));
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            box-shadow: 0 20px 60px -20px rgba(0,0,0,0.6), 0 0 0 1px rgba(34,211,238,0.04) inset;
+            overflow: hidden;
+        }
+        .terminal-bar {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 10px 14px;
+            border-bottom: 1px solid var(--border);
+            background: rgba(255,255,255,0.02);
+        }
+        .dot { width: 11px; height: 11px; border-radius: 50%; }
+        .dot.r { background: #ff5f56; }
+        .dot.y { background: #ffbd2e; }
+        .dot.g { background: #27c93f; }
+
+        .copy-btn {
+            transition: all 0.18s ease;
+        }
+        .copy-btn:hover { background: rgba(34,211,238,0.12); color: #22d3ee; border-color: rgba(34,211,238,0.4); }
+        .copy-btn.copied { background: rgba(34,197,94,0.15); color: #22c55e; border-color: rgba(34,197,94,0.4); }
+
+        .feature {
+            transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+        }
+        .feature:hover {
+            transform: translateY(-3px);
+            border-color: rgba(34,211,238,0.25);
+            background: rgba(34,211,238,0.03);
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 14px;
+            border-radius: 999px;
+            background: rgba(255,255,255,0.04);
+            border: 1px solid var(--border);
+            font-size: 12px;
+            color: var(--muted);
+            letter-spacing: 0.04em;
+        }
+        .pulse {
+            width: 7px; height: 7px; border-radius: 50%;
+            background: #22c55e;
+            box-shadow: 0 0 0 0 rgba(34,197,94,0.6);
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%   { box-shadow: 0 0 0 0 rgba(34,197,94,0.6); }
+            70%  { box-shadow: 0 0 0 8px rgba(34,197,94,0); }
+            100% { box-shadow: 0 0 0 0 rgba(34,197,94,0); }
+        }
+
+        table.cmd-table { width: 100%; border-collapse: collapse; }
+        table.cmd-table th, table.cmd-table td {
+            text-align: left; padding: 12px 16px; border-bottom: 1px solid var(--border);
+        }
+        table.cmd-table th { color: var(--muted); font-weight: 500; font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; }
+        table.cmd-table tr:last-child td { border-bottom: none; }
+        table.cmd-table code {
+            font-family: 'JetBrains Mono', monospace;
+            background: rgba(34,211,238,0.08);
+            color: #22d3ee;
+            padding: 2px 8px;
+            border-radius: 5px;
+            font-size: 13px;
+        }
+
+        .link { color: var(--muted); transition: color 0.15s ease; }
+        .link:hover { color: var(--text); }
+
+        .btn-primary {
+            display: inline-flex; align-items: center; gap: 8px;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #22d3ee, #a855f7);
+            color: #0a0a0a;
+            font-weight: 600;
+            border-radius: 10px;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+        .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 10px 30px -10px rgba(34,211,238,0.5); }
+
+        .btn-secondary {
+            display: inline-flex; align-items: center; gap: 8px;
+            padding: 10px 20px;
+            background: rgba(255,255,255,0.04);
+            border: 1px solid var(--border);
+            color: var(--text);
+            border-radius: 10px;
+            transition: background 0.15s ease, border-color 0.15s ease;
+        }
+        .btn-secondary:hover { background: rgba(255,255,255,0.07); border-color: rgba(255,255,255,0.18); }
+
+        /* Reveal on load */
+        .reveal { opacity: 0; transform: translateY(12px); animation: reveal 0.7s ease forwards; }
+        .reveal.d1 { animation-delay: 0.05s; }
+        .reveal.d2 { animation-delay: 0.15s; }
+        .reveal.d3 { animation-delay: 0.25s; }
+        .reveal.d4 { animation-delay: 0.35s; }
+        .reveal.d5 { animation-delay: 0.45s; }
+        @keyframes reveal {
+            to { opacity: 1; transform: translateY(0); }
+        }
     </style>
 </head>
-<body class="flex flex-col items-center justify-center min-h-screen">
-    <h1 class="text-5xl font-bold tracking-tighter mb-2">BOARHIRO</h1>
-    <p class="text-zinc-500 mb-8 italic">Logic. Speed. Minimalism.</p>
-    <div class="terminal p-6 w-full max-w-xl text-center">
-        <code class="text-cyan-400">pip install boarhiro</code>
+<body>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="grid-bg"></div>
+
+    <div class="content">
+        <!-- Nav -->
+        <nav class="max-w-6xl mx-auto flex items-center justify-between px-6 py-6 reveal">
+            <div class="flex items-center gap-2">
+                <div class="w-8 h-8 rounded-lg" style="background: linear-gradient(135deg,#22d3ee,#a855f7);"></div>
+                <span class="font-bold tracking-tight">BOARHIRO</span>
+            </div>
+            <div class="flex items-center gap-6 text-sm">
+                <a href="#features" class="link hidden sm:inline">Features</a>
+                <a href="#install" class="link hidden sm:inline">Install</a>
+                <a href="#commands" class="link hidden sm:inline">Commands</a>
+                <a href="https://github.com/FurryCoder67/boarhiro" target="_blank" rel="noopener" class="link inline-flex items-center gap-1.5">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.06 11.06 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.69 5.4-5.26 5.69.41.36.78 1.06.78 2.14v3.17c0 .31.21.68.8.56C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+                    GitHub
+                </a>
+            </div>
+        </nav>
+
+        <!-- Hero -->
+        <section class="max-w-4xl mx-auto px-6 pt-16 pb-20 text-center">
+            <div class="reveal d1 mb-6">
+                <span class="badge"><span class="pulse"></span> v1.0 — Self-training local AI</span>
+            </div>
+
+            <h1 class="reveal d2 text-6xl sm:text-7xl md:text-8xl font-extrabold tracking-tighter mb-4 gradient-text leading-none">
+                BOARHIRO
+            </h1>
+
+            <p class="reveal d3 text-zinc-400 italic mb-8 text-lg">Logic. Speed. Minimalism.</p>
+
+            <p class="reveal d3 text-zinc-300 max-w-2xl mx-auto mb-10 text-lg leading-relaxed">
+                A transformer-based neural AI that trains itself <span class="text-cyan-400">continuously</span>
+                and gets smarter the longer it runs. No API keys. No cloud. No cost.
+            </p>
+
+            <!-- Install command -->
+            <div id="install" class="reveal d4 terminal max-w-xl mx-auto text-left">
+                <div class="terminal-bar">
+                    <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+                    <span class="ml-3 text-xs text-zinc-500 mono">~ install boarhiro</span>
+                </div>
+                <div class="flex items-center justify-between p-5">
+                    <code class="mono text-cyan-400 text-base sm:text-lg">
+                        <span class="text-zinc-600 select-none">$ </span>pip install boarhiro
+                    </code>
+                    <button id="copyBtn" class="copy-btn mono text-xs px-3 py-1.5 rounded-md border border-white/10 text-zinc-400">
+                        Copy
+                    </button>
+                </div>
+            </div>
+
+            <div class="reveal d5 mt-8 flex flex-wrap items-center justify-center gap-3">
+                <a href="https://github.com/FurryCoder67/boarhiro" target="_blank" rel="noopener" class="btn-primary">
+                    Get started
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#commands" class="btn-secondary">View commands</a>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section id="features" class="max-w-6xl mx-auto px-6 pb-20">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="feature panel p-6">
+                    <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background: rgba(34,211,238,0.12); color:#22d3ee;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                    </div>
+                    <h3 class="font-semibold mb-1.5">Local Inference</h3>
+                    <p class="text-sm text-zinc-400 leading-relaxed">Runs an inference server right on your machine. Zero latency to the cloud.</p>
+                </div>
+
+                <div class="feature panel p-6">
+                    <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background: rgba(168,85,247,0.12); color:#a855f7;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-6.219-8.56"/><path d="M21 3v6h-6"/></svg>
+                    </div>
+                    <h3 class="font-semibold mb-1.5">Always Training</h3>
+                    <p class="text-sm text-zinc-400 leading-relaxed">Background training runs forever and saves checkpoints automatically.</p>
+                </div>
+
+                <div class="feature panel p-6">
+                    <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background: rgba(59,130,246,0.12); color:#3b82f6;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
+                    </div>
+                    <h3 class="font-semibold mb-1.5">Data Hunter</h3>
+                    <p class="text-sm text-zinc-400 leading-relaxed">Continuously fetches real text from the web to feed the trainer.</p>
+                </div>
+
+                <div class="feature panel p-6">
+                    <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background: rgba(34,197,94,0.12); color:#22c55e;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                    </div>
+                    <h3 class="font-semibold mb-1.5">Private by Default</h3>
+                    <p class="text-sm text-zinc-400 leading-relaxed">Everything stays on your computer. No API keys, no telemetry.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Commands -->
+        <section id="commands" class="max-w-4xl mx-auto px-6 pb-20">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold tracking-tight mb-2">Commands</h2>
+                <p class="text-zinc-500">Just run <code class="mono text-cyan-400">boarhiro</code> — that's it.</p>
+            </div>
+
+            <div class="panel overflow-hidden">
+                <table class="cmd-table">
+                    <thead>
+                        <tr>
+                            <th style="width: 38%;">Command</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><code>help</code></td><td class="text-zinc-300">Show all commands</td></tr>
+                        <tr><td><code>status</code></td><td class="text-zinc-300">Show server &amp; trainer status</td></tr>
+                        <tr><td><code>seturl &lt;url&gt;</code></td><td class="text-zinc-300">Point to a remote server</td></tr>
+                        <tr><td><code>update</code></td><td class="text-zinc-300">Upgrade to latest version</td></tr>
+                        <tr><td><code>exit</code></td><td class="text-zinc-300">Quit</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="mt-6 panel p-5">
+                <p class="text-xs uppercase tracking-wider text-zinc-500 mb-3">Train manually</p>
+                <div class="space-y-2 mono text-sm">
+                    <div><span class="text-zinc-600">$</span> <span class="text-cyan-400">trainboarhiro</span>              <span class="text-zinc-500"># runs forever in background</span></div>
+                    <div><span class="text-zinc-600">$</span> <span class="text-cyan-400">trainboarhiro --no-hunter</span>  <span class="text-zinc-500"># use your own data/input.txt</span></div>
+                    <div><span class="text-zinc-600">$</span> <span class="text-cyan-400">stopboarhiro</span>               <span class="text-zinc-500"># stop background training</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="border-t border-white/5 mt-10">
+            <div class="max-w-6xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-zinc-500">
+                <div class="flex items-center gap-2">
+                    <div class="w-5 h-5 rounded" style="background: linear-gradient(135deg,#22d3ee,#a855f7);"></div>
+                    <span>BOARHIRO &mdash; MIT License</span>
+                </div>
+                <div class="flex items-center gap-5">
+                    <span>Python 3.10+</span>
+                    <span>PyTorch</span>
+                    <a class="link" href="https://github.com/FurryCoder67/boarhiro" target="_blank" rel="noopener">GitHub ↗</a>
+                </div>
+            </div>
+        </footer>
     </div>
+
+    <script>
+        const btn = document.getElementById('copyBtn');
+        btn.addEventListener('click', async () => {
+            try {
+                await navigator.clipboard.writeText('pip install boarhiro');
+                btn.textContent = 'Copied!';
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    btn.textContent = 'Copy';
+                    btn.classList.remove('copied');
+                }, 1500);
+            } catch (e) {
+                btn.textContent = 'Failed';
+                setTimeout(() => btn.textContent = 'Copy', 1500);
+            }
+        });
+    </script>
 </body>
 </html>
