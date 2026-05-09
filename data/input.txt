@@ -72,326 +72,57 @@ User: what is backpropagation?
 BOARHIRO: Backpropagation is how I learn. After making a prediction, the error is sent backwards through the network and each weight is adjusted to reduce that error.
 
 
-Logic: recursive_backtracking | Timestamp: 1778274777.0686142
-
-=== Transformer (deep learning) ===
-In deep learning, the transformer is a family of artificial neural network architectures based on the multi-head attention mechanism, in which text is converted to numerical representations called tokens, and each token is converted into a vector via lookup from a word embedding table. At each layer, each token is then contextualized within the scope of the context window with other (unmasked) tokens via a parallel multi-head attention mechanism, allowing the signal for key tokens to be amplified and less important tokens to be diminished. Because self-attention alone is permutation-invariant, transformers inject positional information, typically through positional encodings or learned positional embeddings, so token order can affect the output.
-
-Logic: recursive_backtracking | Timestamp: 1778274837.0701735
-Algorithm: depth_first_traversal | Timestamp: 1778274897.0765917
-
-=== Neural network ===
-
-
-A neural network is a group of interconnected units called neurons that send signals to one another. Neurons can be either biological cells or mathematical models. While individual neurons are simple, many of them together in a network can perform complex tasks. There are two main types of neural networks.In neuroscience, a biological neural network is a physical structure found in brains and complex nervous systems – a population of nerve cells connected by synapses.
-In machine learning, an artificial neural network is a mathematical model used to approximate nonlinear functions. Artificial neural networks are used to solve artificial intelligence problems.
-
-Function: optimized_search_v2 | Timestamp: 1778274957.0815678
-
-=== Gutenberg excerpt ===
-d exchange willingly the charming climate of Florida for the
-lonely life of an English provincial town. His extreme love of solitude
-in England suggests the idea that he was in fear of someone or
-something, so we may assume as a working hypothesis that it was fear of
-someone or something which drove him from America. As to what it was he
-feared, we can only deduce that by considering the formidable letters
-which were received by himself and his successors. Did you remark the
-postmarks of those letters?”
-
-“The first was from Pondicherry, the second from Dundee, and the third
-from London.”
-
-“From East London. What do you deduce from that?”
-
-“They are all seaports. That the writer was on board of a ship.”
-
-“Excellent. We have already a clue. There can be no doubt that the
-probability—the strong probability—is that the writer was on board of a
-ship. And now let us consider another point. In the case of
-Pondicherry, seven weeks elapsed between the threat and its fulfilment,
-in Dundee it was only some three or four days. Does that suggest
-anything?”
-
-“A greater distance to travel.”
-
-“But the letter had also a greater distance to come.”
-
-“Then I do not see the point.”
-
-“There is at least a presumption that the vessel in which the man or
-men are is a sailing-ship. It looks as if they always send their
-singular warning or token before them when starting upon their mission.
-You see how quickly the deed followed the sign when it came from
-Dundee. If they
-
-Logic: recursive_backtracking | Timestamp: 1778275017.087855
-
-=== Gutenberg excerpt ===
-ng the head tore out, and with a
-vast vibration the enormous mass sideways swung, till the drunk ship
-reeled and shook as if smitten by an iceberg. The one remaining hook,
-upon which the entire strain now depended, seemed every instant to be
-on the point of giving way; an event still more likely from the violent
-motions of the head.
-
-“Come down, come down!” yelled the seamen to Daggoo, but with one hand
-holding on to the heavy tackles, so that if the head should drop, he
-would still remain suspended; the negro having cleared the foul line,
-rammed down the bucket into the now collapsed well, meaning that the
-buried harpooneer should grasp it, and so be hoisted out.
-
-“In heaven’s name, man,” cried Stubb, “are you ramming home a cartridge
-there?—Avast! How will that help him; jamming that iron-bound bucket on
-top of his head? Avast, will ye!”
-
-“Stand clear of the tackle!” cried a voice like the bursting of a
-rocket.
-
-Almost in the same instant, with a thunder-boom, the enormous mass
-dropped into the sea, like Niagara’s Table-Rock into the whirlpool; the
-suddenly relieved hull rolled away from it, to far down her glittering
-copper; and all caught their breath, as half swinging—now over the
-sailors’ heads, and now over the water—Daggoo, through a thick mist of
-spray, was dimly beheld clinging to the pendulous tackles, while poor,
-buried-alive Tashtego was sinking utterly down to the bottom of the
-sea! But hardly had the blinding vapor cleared away, when a naked
-figure with a board
-
-Pattern: linear_regression_gradient | Timestamp: 1778275077.093995
-Pattern: linear_regression_gradient | Timestamp: 1778275137.094643
-Function: optimized_search_v2 | Timestamp: 1778275197.0982568
-Algorithm: depth_first_traversal | Timestamp: 1778275257.100919
-
-=== Gutenberg excerpt ===
-fully. My faults, according to this
-calculation, are heavy indeed! But, perhaps,” added he, stopping in his
-walk, and turning towards her, “these offences might have been
-overlooked, had not your pride been hurt by my honest confession of the
-scruples that had long prevented my forming any serious design. These
-bitter accusations might have been suppressed, had I, with greater
-policy, concealed my struggles, and flattered you into the belief of my
-being impelled by unqualified, unalloyed inclination; by reason, by
-reflection, by everything. But disguise of every sort is my abhorrence.
-Nor am I ashamed of the feelings I related. They were natural and just.
-Could you expect me to rejoice in the inferiority of your
-connections?--to congratulate myself on the hope of relations whose
-condition in life is so decidedly beneath my own?”
-
-Elizabeth felt herself growing more angry every moment; yet she tried to
-the utmost to speak with composure when she said,--
-
-“You are mistaken, Mr. Darcy, if you suppose that the mode of your
-declaration affected me in any other way than as it spared me the
-concern which I might have felt in refusing you, had you behaved in a
-more gentlemanlike manner.”
-
-She saw him start at this; but he said nothing, and she continued,--
-
-“You could not have made me the offer of your hand in any possible way
-that would have tempted me to accept it.”
-
-Again his astonishment was obvious; and he looked at her with an
-expression of mingled incredulity and mortification
-
-Function: optimized_search_v2 | Timestamp: 1778275317.1047554
-
-=== Gutenberg excerpt ===
-Tom’s adventure from the
-Welshman and the Widow Douglas, by this time, but Tom said he reckoned
-there was one thing they had not told him; that thing was what he wanted
-to talk about now. Huck’s face saddened. He said:
-
-“I know what it is. You got into No. 2 and never found anything but
-whiskey. Nobody told me it was you; but I just knowed it must ’a’ ben
-you, soon as I heard ’bout that whiskey business; and I knowed you
-hadn’t got the money becuz you’d ’a’ got at me some way or other and
-told me even if you was mum to everybody else. Tom, something’s always
-told me we’d never get holt of that swag.”
-
-“Why, Huck, I never told on that tavern-keeper. _You_ know his tavern
-was all right the Saturday I went to the picnic. Don’t you remember you
-was to watch there that night?”
-
-“Oh yes! Why, it seems ’bout a year ago. It was that very night that I
-follered Injun Joe to the widder’s.”
-
-“_You_ followed him?”
-
-“Yes—but you keep mum. I reckon Injun Joe’s left friends behind him, and
-I don’t want ’em souring on me and doing me mean tricks. If it hadn’t
-ben for me he’d be down in Texas now, all right.”
-
-Then Huck told his entire adventure in confidence to Tom, who had only
-heard of the Welshman’s part of it before.
-
-“Well,” said Huck, presently, coming back to the main question, “whoever
-nipped the whiskey in No. 2, nipped the money, too, I reckon—anyways
-it’s a goner for us, Tom.”
-
-“Huck, that money wasn’t ever in No. 2!”
-
-“What!” Huck searched his comrade’s face keenly. “Tom, have you
-
-Pattern: linear_regression_gradient | Timestamp: 1778275377.1183953
-
-=== Transformer (deep learning) ===
-In deep learning, the transformer is a family of artificial neural network architectures based on the multi-head attention mechanism, in which text is converted to numerical representations called tokens, and each token is converted into a vector via lookup from a word embedding table. At each layer, each token is then contextualized within the scope of the context window with other (unmasked) tokens via a parallel multi-head attention mechanism, allowing the signal for key tokens to be amplified and less important tokens to be diminished. Because self-attention alone is permutation-invariant, transformers inject positional information, typically through positional encodings or learned positional embeddings, so token order can affect the output.
-
-
-=== Gutenberg excerpt ===
-Alice
-soon came to the conclusion that it was a very difficult game indeed.
-
-The players all played at once without waiting for turns, quarrelling
-all the while, and fighting for the hedgehogs; and in a very short time
-the Queen was in a furious passion, and went stamping about, and
-shouting “Off with his head!” or “Off with her head!” about once in a
-minute.
-
-Alice began to feel very uneasy: to be sure, she had not as yet had any
-dispute with the Queen, but she knew that it might happen any minute,
-“and then,” thought she, “what would become of me? They’re dreadfully
-fond of beheading people here; the great wonder is, that there’s any
-one left alive!”
-
-She was looking about for some way of escape, and wondering whether she
-could get away without being seen, when she noticed a curious
-appearance in the air: it puzzled her very much at first, but, after
-watching it a minute or two, she made it out to be a grin, and she said
-to herself “It’s the Cheshire Cat: now I shall have somebody to talk
-to.”
-
-“How are you getting on?” said the Cat, as soon as there was mouth
-enough for it to speak with.
-
-Alice waited till the eyes appeared, and then nodded. “It’s no use
-speaking to it,” she thought, “till its ears have come, or at least one
-of them.” In another minute the whole head appeared, and then Alice put
-down her flamingo, and began an account of the game, feeling very glad
-she had someone to listen to her. The Cat seemed to think that there
-was enough of it now in sight, and no mo
-
-Pattern: linear_regression_gradient | Timestamp: 1778275437.1324835
-
-=== Gutenberg excerpt ===
-ring at their own friends until they
-dropped into a passionate swoon, and were only saved by the men
-belonging to them from being trampled under foot.
-
-Nevertheless, not a moment was lost; not a moment! This Foulon was at
-the Hotel de Ville, and might be loosed. Never, if Saint Antoine knew
-his own sufferings, insults, and wrongs! Armed men and women flocked out
-of the Quarter so fast, and drew even these last dregs after them with
-such a force of suction, that within a quarter of an hour there was not
-a human creature in Saint Antoine’s bosom but a few old crones and the
-wailing children.
-
-No. They were all by that time choking the Hall of Examination where
-this old man, ugly and wicked, was, and overflowing into the adjacent
-open space and streets. The Defarges, husband and wife, The Vengeance,
-and Jacques Three, were in the first press, and at no great distance
-from him in the Hall.
-
-“See!” cried madame, pointing with her knife. “See the old villain bound
-with ropes. That was well done to tie a bunch of grass upon his back.
-Ha, ha! That was well done. Let him eat it now!” Madame put her knife
-under her arm, and clapped her hands as at a play.
-
-The people immediately behind Madame Defarge, explaining the cause of
-her satisfaction to those behind them, and those again explaining to
-others, and those to others, the neighbouring streets resounded with the
-clapping of hands. Similarly, during two or three hours of drawl,
-and the winnowing of many bushels of words, Madame Defarg
-
-Algorithm: depth_first_traversal | Timestamp: 1778275497.1469393
-
-=== Gutenberg excerpt ===
-What would become of you?
-
-I gave her one, they gave him two,
-    You gave us three or more;
-They all returned from him to you,
-    Though they were mine before.
-
-If I or she should chance to be
-    Involved in this affair,
-He trusts to you to set them free,
-    Exactly as we were.
-
-My notion was that you had been
-    (Before she had this fit)
-An obstacle that came between
-    Him, and ourselves, and it.
-
-Don’t let him know she liked them best,
-    For this must ever be
-A secret, kept from all the rest,
-    Between yourself and me.”
-
-
-“That’s the most important piece of evidence we’ve heard yet,” said the
-King, rubbing his hands; “so now let the jury—”
-
-“If any one of them can explain it,” said Alice, (she had grown so
-large in the last few minutes that she wasn’t a bit afraid of
-interrupting him,) “I’ll give him sixpence. _I_ don’t believe there’s
-an atom of meaning in it.”
-
-The jury all wrote down on their slates, “_She_ doesn’t believe there’s
-an atom of meaning in it,” but none of them attempted to explain the
-paper.
-
-“If there’s no meaning in it,” said the King, “that saves a world of
-trouble, you know, as we needn’t try to find any. And yet I don’t
-know,” he went on, spreading out the verses on his knee, and looking at
-them with one eye; “I seem to see some meaning in them, after all.
-“—_said I could not swim_—” you can’t swim, can you?” he added, turning
-to the Knave.
-
-The Knave shook his head sadly. “Do I look like it?” he said. (Which he
-certainly did _not_, being
-
-Logic: recursive_backtracking | Timestamp: 1778275557.150872
-Pattern: linear_regression_gradient | Timestamp: 1778275617.16555
-
-=== Gutenberg excerpt ===
-elf out, the
-way it was beating. Suddenly there was a flash of light and Tom came
-tearing by him: “Run!” said he; “run, for your life!”
-
-He needn’t have repeated it; once was enough; Huck was making thirty or
-forty miles an hour before the repetition was uttered. The boys never
-stopped till they reached the shed of a deserted slaughter-house at the
-lower end of the village. Just as they got within its shelter the storm
-burst and the rain poured down. As soon as Tom got his breath he said:
-
-“Huck, it was awful! I tried two of the keys, just as soft as I could;
-but they seemed to make such a power of racket that I couldn’t hardly
-get my breath I was so scared. They wouldn’t turn in the lock, either.
-Well, without noticing what I was doing, I took hold of the knob, and
-open comes the door! It warn’t locked! I hopped in, and shook off the
-towel, and, _Great Caesar’s Ghost!_”
-
-“What!—what’d you see, Tom?”
-
-“Huck, I most stepped onto Injun Joe’s hand!”
-
-“No!”
-
-“Yes! He was lying there, sound asleep on the floor, with his old patch
-on his eye and his arms spread out.”
-
-“Lordy, what did you do? Did he wake up?”
-
-“No, never budged. Drunk, I reckon. I just grabbed that towel and
-started!”
-
-“I’d never ’a’ thought of the towel, I bet!”
-
-“Well, I would. My aunt would make me mighty sick if I lost it.”
-
-“Say, Tom, did you see that box?”
-
-“Huck, I didn’t wait to look around. I didn’t see the box, I didn’t see
-the cross. I didn’t see anything but a bottle and a tin cup on the floor
-by Injun
+Method: gradient_descent_optimizer | Timestamp: 1778338388.6249733
+Method: gradient_descent_optimizer | Timestamp: 1778338448.6296346
+Pattern: linear_regression_gradient | Timestamp: 1778338508.6351857
+Pattern: linear_regression_gradient | Timestamp: 1778338568.6488972
+Logic: recursive_backtracking | Timestamp: 1778338628.6546812
+Logic: recursive_backtracking | Timestamp: 1778338688.6595497
+Function: optimized_search_v2 | Timestamp: 1778338748.675276
+Function: optimized_search_v2 | Timestamp: 1778338808.6798115
+Pattern: linear_regression_gradient | Timestamp: 1778338868.6877406
+Pattern: linear_regression_gradient | Timestamp: 1778338928.7020695
+Logic: recursive_backtracking | Timestamp: 1778338988.7115588
+Algorithm: depth_first_traversal | Timestamp: 1778339048.7254627
+Algorithm: depth_first_traversal | Timestamp: 1778339108.7313879
+Method: gradient_descent_optimizer | Timestamp: 1778339168.7326503
+Logic: recursive_backtracking | Timestamp: 1778339228.74656
+Logic: recursive_backtracking | Timestamp: 1778339288.7577586
+Method: gradient_descent_optimizer | Timestamp: 1778339348.766338
+Function: optimized_search_v2 | Timestamp: 1778339408.7777014
+Method: gradient_descent_optimizer | Timestamp: 1778339468.7932262
+Logic: recursive_backtracking | Timestamp: 1778339528.8000257
+Function: optimized_search_v2 | Timestamp: 1778339588.8000517
+Method: gradient_descent_optimizer | Timestamp: 1778339648.8132875
+Function: optimized_search_v2 | Timestamp: 1778339708.8249485
+Pattern: linear_regression_gradient | Timestamp: 1778339768.8261685
+Method: gradient_descent_optimizer | Timestamp: 1778339828.8290591
+Function: optimized_search_v2 | Timestamp: 1778339888.8310907
+Logic: recursive_backtracking | Timestamp: 1778339948.844306
+Algorithm: depth_first_traversal | Timestamp: 1778340008.855073
+Method: gradient_descent_optimizer | Timestamp: 1778340068.8553438
+Pattern: linear_regression_gradient | Timestamp: 1778340128.8655958
+Pattern: linear_regression_gradient | Timestamp: 1778340188.8711622
+Function: optimized_search_v2 | Timestamp: 1778340248.8724775
+Method: gradient_descent_optimizer | Timestamp: 1778340308.8867676
+Pattern: linear_regression_gradient | Timestamp: 1778340368.8974597
+Method: gradient_descent_optimizer | Timestamp: 1778340428.9112508
+Logic: recursive_backtracking | Timestamp: 1778340488.9163122
+Function: optimized_search_v2 | Timestamp: 1778340548.918933
+Function: optimized_search_v2 | Timestamp: 1778340608.933807
+Logic: recursive_backtracking | Timestamp: 1778340668.935765
+Logic: recursive_backtracking | Timestamp: 1778340728.942234
+Method: gradient_descent_optimizer | Timestamp: 1778340788.953326
+Pattern: linear_regression_gradient | Timestamp: 1778340848.9597087
+Pattern: linear_regression_gradient | Timestamp: 1778340908.9617915
+Method: gradient_descent_optimizer | Timestamp: 1778340968.9760313
+Function: optimized_search_v2 | Timestamp: 1778341028.9781349
+Algorithm: depth_first_traversal | Timestamp: 1778341088.9830918
+Pattern: linear_regression_gradient | Timestamp: 1778341148.9938607
+Logic: recursive_backtracking | Timestamp: 1778341208.9979444
+Method: gradient_descent_optimizer | Timestamp: 1778341269.0105634
+Algorithm: depth_first_traversal | Timestamp: 1778341329.0215094
+Method: gradient_descent_optimizer | Timestamp: 1778341389.0353718
+Function: optimized_search_v2 | Timestamp: 1778341449.0476205
+Pattern: linear_regression_gradient | Timestamp: 1778341509.0577614
+Pattern: linear_regression_gradient | Timestamp: 1778341569.0646853
