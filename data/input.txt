@@ -72,4 +72,6 @@ User: what is backpropagation?
 BOARHIRO: Backpropagation is how I learn. After making a prediction, the error is sent backwards through the network and each weight is adjusted to reduce that error.
 
 
-Function: optimized_search_v2 | Timestamp: 1778359931.1740847
+
+=== Proceedings of the Institution of Mechanical Engineers, Part C ===
+The Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science is a peer-reviewed scientific journal that covers the fundamentals of engineering science and its application to the solution of challenges and problems in engineering. The journal obtained its current name in 1989 when it was split off from the Proceedings of the Institution of Mechanical Engineers. It is published by SAGE Publications on behalf of the Institution of Mechanical Engineers. The editor-in-chief is J.W. Chew.
