@@ -75,3 +75,1179 @@ BOARHIRO: Backpropagation is how I learn. After making a prediction, the error i
 
 === Proceedings of the Institution of Mechanical Engineers, Part C ===
 The Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science is a peer-reviewed scientific journal that covers the fundamentals of engineering science and its application to the solution of challenges and problems in engineering. The journal obtained its current name in 1989 when it was split off from the Proceedings of the Institution of Mechanical Engineers. It is published by SAGE Publications on behalf of the Institution of Mechanical Engineers. The editor-in-chief is J.W. Chew.
+
+Logic: recursive_backtracking | Timestamp: 1778360051.1964707
+Function: optimized_search_v2 | Timestamp: 1778360111.2053719
+Algorithm: depth_first_traversal | Timestamp: 1778360171.2193956
+Pattern: linear_regression_gradient | Timestamp: 1778360231.2262049
+Pattern: linear_regression_gradient | Timestamp: 1778360291.233564
+Algorithm: depth_first_traversal | Timestamp: 1778360351.2418022
+
+=== Gutenberg excerpt ===
+ity itself. But think no more of the letter. The feelings
+of the person who wrote and the person who received it are now so widely
+different from what they were then, that every unpleasant circumstance
+attending it ought to be forgotten. You must learn some of my
+philosophy. Think only of the past as its remembrance gives you
+pleasure.”
+
+“I cannot give you credit for any philosophy of the kind. _Your_
+retrospections must be so totally void of reproach, that the contentment
+arising from them is not of philosophy, but, what is much better, of
+ignorance. But with _me_, it is not so. Painful recollections will
+intrude, which cannot, which ought not to be repelled. I have been a
+selfish being all my life, in practice, though not in principle. As a
+child I was taught what was _right_, but I was not taught to correct my
+temper. I was given good principles, but left to follow them in pride
+and conceit. Unfortunately an only son (for many years an only _child_),
+I was spoiled by my parents, who, though good themselves, (my father
+particularly, all that was benevolent and amiable,) allowed, encouraged,
+almost taught me to be selfish and overbearing, to care for none beyond
+my own family circle, to think meanly of all the rest of the world, to
+_wish_ at least to think meanly of their sense and worth compared with
+my own. Such I was, from eight to eight-and-twenty; and such I might
+still have been but for you, dearest, loveliest Elizabeth! What do I not
+owe you! You taught me a lesson, h
+
+
+=== Gutenberg excerpt ===
+hose body lay lifeless on the ground.
+
+In the first fright and horror of her situation, Miss Pross passed the
+body as far from it as she could, and ran down the stairs to call for
+fruitless help. Happily, she bethought herself of the consequences of
+what she did, in time to check herself and go back. It was dreadful to
+go in at the door again; but, she did go in, and even went near it, to
+get the bonnet and other things that she must wear. These she put on,
+out on the staircase, first shutting and locking the door and taking
+away the key. She then sat down on the stairs a few moments to breathe
+and to cry, and then got up and hurried away.
+
+By good fortune she had a veil on her bonnet, or she could hardly have
+gone along the streets without being stopped. By good fortune, too, she
+was naturally so peculiar in appearance as not to show disfigurement
+like any other woman. She needed both advantages, for the marks of
+gripping fingers were deep in her face, and her hair was torn, and her
+dress (hastily composed with unsteady hands) was clutched and dragged a
+hundred ways.
+
+In crossing the bridge, she dropped the door key in the river. Arriving
+at the cathedral some few minutes before her escort, and waiting there,
+she thought, what if the key were already taken in a net, what if
+it were identified, what if the door were opened and the remains
+discovered, what if she were stopped at the gate, sent to prison, and
+charged with murder! In the midst of these fluttering thoughts, the
+e
+
+Function: optimized_search_v2 | Timestamp: 1778360411.2575176
+Function: optimized_search_v2 | Timestamp: 1778360471.2633402
+
+=== Neural network ===
+
+
+A neural network is a group of interconnected units called neurons that send signals to one another. Neurons can be either biological cells or mathematical models. While individual neurons are simple, many of them together in a network can perform complex tasks. There are two main types of neural networks.In neuroscience, a biological neural network is a physical structure found in brains and complex nervous systems – a population of nerve cells connected by synapses.
+In machine learning, an artificial neural network is a mathematical model used to approximate nonlinear functions. Artificial neural networks are used to solve artificial intelligence problems.
+
+Function: optimized_search_v2 | Timestamp: 1778360531.264502
+Logic: recursive_backtracking | Timestamp: 1778360591.2691684
+Function: optimized_search_v2 | Timestamp: 1778360651.2755387
+Pattern: linear_regression_gradient | Timestamp: 1778360711.2919917
+
+=== Neural network ===
+
+
+A neural network is a group of interconnected units called neurons that send signals to one another. Neurons can be either biological cells or mathematical models. While individual neurons are simple, many of them together in a network can perform complex tasks. There are two main types of neural networks.In neuroscience, a biological neural network is a physical structure found in brains and complex nervous systems – a population of nerve cells connected by synapses.
+In machine learning, an artificial neural network is a mathematical model used to approximate nonlinear functions. Artificial neural networks are used to solve artificial intelligence problems.
+
+Method: gradient_descent_optimizer | Timestamp: 1778360771.2974594
+Logic: recursive_backtracking | Timestamp: 1778360831.3110654
+
+=== Gutenberg excerpt ===
+my exertions to defiance. Who can follow an
+animal which can traverse the sea of ice and inhabit caves and dens where
+no man would venture to intrude? Besides, some months have elapsed since
+the commission of his crimes, and no one can conjecture to what place he
+has wandered or what region he may now inhabit.”
+
+“I do not doubt that he hovers near the spot which I inhabit, and if
+he has indeed taken refuge in the Alps, he may be hunted like the chamois
+and destroyed as a beast of prey. But I perceive your thoughts; you do not
+credit my narrative and do not intend to pursue my enemy with the
+punishment which is his desert.”
+
+As I spoke, rage sparkled in my eyes; the magistrate was intimidated.
+“You are mistaken,” said he. “I will exert myself, and if
+it is in my power to seize the monster, be assured that he shall suffer
+punishment proportionate to his crimes. But I fear, from what you have
+yourself described to be his properties, that this will prove
+impracticable; and thus, while every proper measure is pursued, you should
+make up your mind to disappointment.”
+
+“That cannot be; but all that I can say will be of little avail. My
+revenge is of no moment to you; yet, while I allow it to be a vice, I
+confess that it is the devouring and only passion of my soul. My rage
+is unspeakable when I reflect that the murderer, whom I have turned
+loose upon society, still exists. You refuse my just demand; I have
+but one resource, and I devote myself, either in my life or death, to
+his des
+
+Pattern: linear_regression_gradient | Timestamp: 1778360891.3130605
+Method: gradient_descent_optimizer | Timestamp: 1778360951.3182735
+
+=== Transformer (deep learning) ===
+In deep learning, the transformer is a family of artificial neural network architectures based on the multi-head attention mechanism, in which text is converted to numerical representations called tokens, and each token is converted into a vector via lookup from a word embedding table. At each layer, each token is then contextualized within the scope of the context window with other (unmasked) tokens via a parallel multi-head attention mechanism, allowing the signal for key tokens to be amplified and less important tokens to be diminished. Because self-attention alone is permutation-invariant, transformers inject positional information, typically through positional encodings or learned positional embeddings, so token order can affect the output.
+
+Algorithm: depth_first_traversal | Timestamp: 1778361011.3254128
+Logic: recursive_backtracking | Timestamp: 1778361071.3294024
+Method: gradient_descent_optimizer | Timestamp: 1778361131.3465638
+Algorithm: depth_first_traversal | Timestamp: 1778361191.3533282
+Algorithm: depth_first_traversal | Timestamp: 1778361251.3594139
+Pattern: linear_regression_gradient | Timestamp: 1778361311.3661888
+
+=== Transformer (deep learning) ===
+In deep learning, the transformer is a family of artificial neural network architectures based on the multi-head attention mechanism, in which text is converted to numerical representations called tokens, and each token is converted into a vector via lookup from a word embedding table. At each layer, each token is then contextualized within the scope of the context window with other (unmasked) tokens via a parallel multi-head attention mechanism, allowing the signal for key tokens to be amplified and less important tokens to be diminished. Because self-attention alone is permutation-invariant, transformers inject positional information, typically through positional encodings or learned positional embeddings, so token order can affect the output.
+
+Logic: recursive_backtracking | Timestamp: 1778361371.3757052
+Method: gradient_descent_optimizer | Timestamp: 1778361431.3912525
+
+=== Gutenberg excerpt ===
+ain’t the way it is in the
+book. The book says, ‘Then with one back-handed stroke he slew poor Guy
+of Guisborne.’ You’re to turn around and let me hit you in the back.”
+
+There was no getting around the authorities, so Joe turned, received the
+whack and fell.
+
+“Now,” said Joe, getting up, “you got to let me kill _you_. That’s
+fair.”
+
+“Why, I can’t do that, it ain’t in the book.”
+
+“Well, it’s blamed mean—that’s all.”
+
+“Well, say, Joe, you can be Friar Tuck or Much the miller’s son, and lam
+me with a quarter-staff; or I’ll be the Sheriff of Nottingham and you be
+Robin Hood a little while and kill me.”
+
+This was satisfactory, and so these adventures were carried out. Then
+Tom became Robin Hood again, and was allowed by the treacherous nun to
+bleed his strength away through his neglected wound. And at last Joe,
+representing a whole tribe of weeping outlaws, dragged him sadly forth,
+gave his bow into his feeble hands, and Tom said, “Where this arrow
+falls, there bury poor Robin Hood under the greenwood tree.” Then he
+shot the arrow and fell back and would have died, but he lit on a nettle
+and sprang up too gaily for a corpse.
+
+The boys dressed themselves, hid their accoutrements, and went off
+grieving that there were no outlaws any more, and wondering what modern
+civilization could claim to have done to compensate for their loss.
+They said they would rather be outlaws a year in Sherwood Forest than
+President of the United States forever.
+
+
+
+
+CHAPTER IX
+
+
+At half-past nine, that nig
+
+Method: gradient_descent_optimizer | Timestamp: 1778361491.406792
+Method: gradient_descent_optimizer | Timestamp: 1778361551.4180636
+
+=== Gutenberg excerpt ===
+?”
+
+“It’s a common enough lash. But I don’t know why it should be tied.”
+
+“That is not quite so common, is it? Ah, me! it’s a wicked world, and
+when a clever man turns his brains to crime it is the worst of all. I
+think that I have seen enough now, Miss Stoner, and with your
+permission we shall walk out upon the lawn.”
+
+I had never seen my friend’s face so grim or his brow so dark as it was
+when we turned from the scene of this investigation. We had walked
+several times up and down the lawn, neither Miss Stoner nor myself
+liking to break in upon his thoughts before he roused himself from his
+reverie.
+
+“It is very essential, Miss Stoner,” said he, “that you should
+absolutely follow my advice in every respect.”
+
+“I shall most certainly do so.”
+
+“The matter is too serious for any hesitation. Your life may depend
+upon your compliance.”
+
+“I assure you that I am in your hands.”
+
+“In the first place, both my friend and I must spend the night in your
+room.”
+
+Both Miss Stoner and I gazed at him in astonishment.
+
+“Yes, it must be so. Let me explain. I believe that that is the village
+inn over there?”
+
+“Yes, that is the Crown.”
+
+“Very good. Your windows would be visible from there?”
+
+“Certainly.”
+
+“You must confine yourself to your room, on pretence of a headache,
+when your stepfather comes back. Then when you hear him retire for the
+night, you must open the shutters of your window, undo the hasp, put
+your lamp there as a signal to us, and then
+
+Algorithm: depth_first_traversal | Timestamp: 1778361611.4344563
+Function: optimized_search_v2 | Timestamp: 1778361671.446763
+
+=== Gutenberg excerpt ===
+e one of those drunken
+sallies from which he never came back. We found him, when we went to
+search for him, face downward in a little green-scummed pool, which lay
+at the foot of the garden. There was no sign of any violence, and the
+water was but two feet deep, so that the jury, having regard to his
+known eccentricity, brought in a verdict of ‘suicide.’ But I, who knew
+how he winced from the very thought of death, had much ado to persuade
+myself that he had gone out of his way to meet it. The matter passed,
+however, and my father entered into possession of the estate, and of
+some £ 14,000, which lay to his credit at the bank.”
+
+“One moment,” Holmes interposed, “your statement is, I foresee, one of
+the most remarkable to which I have ever listened. Let me have the date
+of the reception by your uncle of the letter, and the date of his
+supposed suicide.”
+
+“The letter arrived on March 10, 1883. His death was seven weeks later,
+upon the night of May 2nd.”
+
+“Thank you. Pray proceed.”
+
+“When my father took over the Horsham property, he, at my request, made
+a careful examination of the attic, which had been always locked up. We
+found the brass box there, although its contents had been destroyed. On
+the inside of the cover was a paper label, with the initials of K. K.
+K. repeated upon it, and ‘Letters, memoranda, receipts, and a register’
+written beneath. These, we presume, indicated the nature of the papers
+which had been destroyed by Colonel Openshaw. For
+
+Method: gradient_descent_optimizer | Timestamp: 1778361731.453679
+Pattern: linear_regression_gradient | Timestamp: 1778361791.4650958
+
+=== Centre for Independent Studies ===
+The Centre for Independent Studies (CIS) is an Australian think tank founded in 1976 by Greg Lindsay. The CIS specialises in public policy research and publishes material in areas such as economics, education, culture and foreign policy. Although there are no explicit ties between the CIS and the centre-right Liberal Party, the CIS is politically aligned with the Liberal Party, praising Liberal Party founder Robert Menzies, hosting various Liberal Party politicians and holding very critical views of the Labor Party. However, it often also criticises the Liberal Party's policies.
+
+Method: gradient_descent_optimizer | Timestamp: 1778361851.4710288
+Pattern: linear_regression_gradient | Timestamp: 1778361911.483773
+
+=== Gutenberg excerpt ===
+Bar was hundreds of miles away, and Madame
+Defarge was drawing very near indeed.
+
+“By the cathedral door,” said Miss Pross. “Would it be much out of
+the way, to take me in, near the great cathedral door between the two
+towers?”
+
+“No, miss,” answered Mr. Cruncher.
+
+“Then, like the best of men,” said Miss Pross, “go to the posting-house
+straight, and make that change.”
+
+“I am doubtful,” said Mr. Cruncher, hesitating and shaking his head,
+“about leaving of you, you see. We don’t know what may happen.”
+
+“Heaven knows we don’t,” returned Miss Pross, “but have no fear for me.
+Take me in at the cathedral, at Three o’Clock, or as near it as you can,
+and I am sure it will be better than our going from here. I feel certain
+of it. There! Bless you, Mr. Cruncher! Think-not of me, but of the lives
+that may depend on both of us!”
+
+This exordium, and Miss Pross’s two hands in quite agonised entreaty
+clasping his, decided Mr. Cruncher. With an encouraging nod or two, he
+immediately went out to alter the arrangements, and left her by herself
+to follow as she had proposed.
+
+The having originated a precaution which was already in course of
+execution, was a great relief to Miss Pross. The necessity of composing
+her appearance so that it should attract no special notice in the
+streets, was another relief. She looked at her watch, and it was twenty
+minutes past two. She had no time to lose, but must get ready at once.
+
+Afraid, in her extreme perturbation, of the loneliness of the deserted
+rooms,
+
+
+=== Gutenberg excerpt ===
+nd the little dears came
+jumping merrily along hand in hand, in couples: they were all
+ornamented with hearts. Next came the guests, mostly Kings and Queens,
+and among them Alice recognised the White Rabbit: it was talking in a
+hurried nervous manner, smiling at everything that was said, and went
+by without noticing her. Then followed the Knave of Hearts, carrying
+the King’s crown on a crimson velvet cushion; and, last of all this
+grand procession, came THE KING AND QUEEN OF HEARTS.
+
+Alice was rather doubtful whether she ought not to lie down on her face
+like the three gardeners, but she could not remember ever having heard
+of such a rule at processions; “and besides, what would be the use of a
+procession,” thought she, “if people had all to lie down upon their
+faces, so that they couldn’t see it?” So she stood still where she was,
+and waited.
+
+When the procession came opposite to Alice, they all stopped and looked
+at her, and the Queen said severely “Who is this?” She said it to the
+Knave of Hearts, who only bowed and smiled in reply.
+
+“Idiot!” said the Queen, tossing her head impatiently; and, turning to
+Alice, she went on, “What’s your name, child?”
+
+“My name is Alice, so please your Majesty,” said Alice very politely;
+but she added, to herself, “Why, they’re only a pack of cards, after
+all. I needn’t be afraid of them!”
+
+“And who are _these?_” said the Queen, pointing to the three gardeners
+who were lying round the rose-tree; for, you see, as they were lying on
+their face
+
+Logic: recursive_backtracking | Timestamp: 1778361971.4903781
+Logic: recursive_backtracking | Timestamp: 1778362031.504225
+Algorithm: depth_first_traversal | Timestamp: 1778362091.51374
+Function: optimized_search_v2 | Timestamp: 1778362151.5229719
+
+=== Gutenberg excerpt ===
+.”
+
+Tom went first, cutting rude steps in the clay hill as he descended.
+Huck followed. Four avenues opened out of the small cavern which the
+great rock stood in. The boys examined three of them with no result.
+They found a small recess in the one nearest the base of the rock, with
+a pallet of blankets spread down in it; also an old suspender, some
+bacon rind, and the well-gnawed bones of two or three fowls. But there
+was no moneybox. The lads searched and researched this place, but in
+vain. Tom said:
+
+“He said _under_ the cross. Well, this comes nearest to being under the
+cross. It can’t be under the rock itself, because that sets solid on the
+ground.”
+
+They searched everywhere once more, and then sat down discouraged. Huck
+could suggest nothing. By-and-by Tom said:
+
+“Lookyhere, Huck, there’s footprints and some candle-grease on the clay
+about one side of this rock, but not on the other sides. Now, what’s
+that for? I bet you the money _is_ under the rock. I’m going to dig in
+the clay.”
+
+“That ain’t no bad notion, Tom!” said Huck with animation.
+
+Tom’s “real Barlow” was out at once, and he had not dug four inches
+before he struck wood.
+
+“Hey, Huck!—you hear that?”
+
+Huck began to dig and scratch now. Some boards were soon uncovered and
+removed. They had concealed a natural chasm which led under the rock.
+Tom got into this and held his candle as far under the rock as he
+could, but said he could not see to the end of the rift. He proposed
+to explore. He stooped and passed under;
+
+Method: gradient_descent_optimizer | Timestamp: 1778362211.5254347
+Algorithm: depth_first_traversal | Timestamp: 1778362271.5416586
+
+=== Gutenberg excerpt ===
+e see. No possible way for him to digest that
+jack-knife, and fully incorporate it into his general bodily system.
+Yes, Captain Boomer, if you are quick enough about it, and have a mind
+to pawn one arm for the sake of the privilege of giving decent burial
+to the other, why in that case the arm is yours; only let the whale
+have another chance at you shortly, that’s all.”
+
+“No, thank ye, Bunger,” said the English Captain, “he’s welcome to the
+arm he has, since I can’t help it, and didn’t know him then; but not to
+another one. No more White Whales for me; I’ve lowered for him once,
+and that has satisfied me. There would be great glory in killing him, I
+know that; and there is a ship-load of precious sperm in him, but, hark
+ye, he’s best let alone; don’t you think so, Captain?”—glancing at the
+ivory leg.
+
+“He is. But he will still be hunted, for all that. What is best let
+alone, that accursed thing is not always what least allures. He’s all a
+magnet! How long since thou saw’st him last? Which way heading?”
+
+“Bless my soul, and curse the foul fiend’s,” cried Bunger, stoopingly
+walking round Ahab, and like a dog, strangely snuffing; “this man’s
+blood—bring the thermometer!—it’s at the boiling point!—his pulse makes
+these planks beat!—sir!”—taking a lancet from his pocket, and drawing
+near to Ahab’s arm.
+
+“Avast!” roared Ahab, dashing him against the bulwarks—“Man the boat!
+Which way heading?”
+
+“Good God!” cried the English Captain, to whom the question was put.
+“What’s the matter?
+
+Function: optimized_search_v2 | Timestamp: 1778362331.5536149
+Algorithm: depth_first_traversal | Timestamp: 1778362391.561604
+
+=== Gutenberg excerpt ===
+place, we may start with a
+strong presumption that Colonel Openshaw had some very strong reason
+for leaving America. Men at his time of life do not change all their
+habits and exchange willingly the charming climate of Florida for the
+lonely life of an English provincial town. His extreme love of solitude
+in England suggests the idea that he was in fear of someone or
+something, so we may assume as a working hypothesis that it was fear of
+someone or something which drove him from America. As to what it was he
+feared, we can only deduce that by considering the formidable letters
+which were received by himself and his successors. Did you remark the
+postmarks of those letters?”
+
+“The first was from Pondicherry, the second from Dundee, and the third
+from London.”
+
+“From East London. What do you deduce from that?”
+
+“They are all seaports. That the writer was on board of a ship.”
+
+“Excellent. We have already a clue. There can be no doubt that the
+probability—the strong probability—is that the writer was on board of a
+ship. And now let us consider another point. In the case of
+Pondicherry, seven weeks elapsed between the threat and its fulfilment,
+in Dundee it was only some three or four days. Does that suggest
+anything?”
+
+“A greater distance to travel.”
+
+“But the letter had also a greater distance to come.”
+
+“Then I do not see the point.”
+
+“There is at least a presumption that the vessel in which the man or
+men are is a sailing-ship. It looks as if t
+
+Method: gradient_descent_optimizer | Timestamp: 1778362451.5706248
+Function: optimized_search_v2 | Timestamp: 1778362511.5873363
+
+=== Gutenberg excerpt ===
+making a row.”
+
+“Did your wife hear all this?”
+
+“No, thank goodness, she did not.”
+
+“And she was seen walking with this very woman afterwards?”
+
+“Yes. That is what Mr. Lestrade, of Scotland Yard, looks upon as so
+serious. It is thought that Flora decoyed my wife out and laid some
+terrible trap for her.”
+
+“Well, it is a possible supposition.”
+
+“You think so, too?”
+
+“I did not say a probable one. But you do not yourself look upon this
+as likely?”
+
+“I do not think Flora would hurt a fly.”
+
+“Still, jealousy is a strange transformer of characters. Pray what is
+your own theory as to what took place?”
+
+“Well, really, I came to seek a theory, not to propound one. I have
+given you all the facts. Since you ask me, however, I may say that it
+has occurred to me as possible that the excitement of this affair, the
+consciousness that she had made so immense a social stride, had the
+effect of causing some little nervous disturbance in my wife.”
+
+“In short, that she had become suddenly deranged?”
+
+“Well, really, when I consider that she has turned her back—I will not
+say upon me, but upon so much that many have aspired to without
+success—I can hardly explain it in any other fashion.”
+
+“Well, certainly that is also a conceivable hypothesis,” said Holmes,
+smiling. “And now, Lord St. Simon, I think that I have nearly all my
+data. May I ask whether you were seated at the breakfast-table so that
+you could see out of the window?”
+
+“We could see the other sid
+
+Pattern: linear_regression_gradient | Timestamp: 1778362571.5938823
+Function: optimized_search_v2 | Timestamp: 1778362631.5956647
+
+=== Gutenberg excerpt ===
+brought about new revelations of the
+incredible ferocity of the foe. They viciously snapped, not only at
+each other’s disembowelments, but like flexible bows, bent round, and
+bit their own; till those entrails seemed swallowed over and over again
+by the same mouth, to be oppositely voided by the gaping wound. Nor was
+this all. It was unsafe to meddle with the corpses and ghosts of these
+creatures. A sort of generic or Pantheistic vitality seemed to lurk in
+their very joints and bones, after what might be called the individual
+life had departed. Killed and hoisted on deck for the sake of his skin,
+one of these sharks almost took poor Queequeg’s hand off, when he tried
+to shut down the dead lid of his murderous jaw.
+
+*The whaling-spade used for cutting-in is made of the very best steel;
+is about the bigness of a man’s spread hand; and in general shape,
+corresponds to the garden implement after which it is named; only its
+sides are perfectly flat, and its upper end considerably narrower than
+the lower. This weapon is always kept as sharp as possible; and when
+being used is occasionally honed, just like a razor. In its socket, a
+stiff pole, from twenty to thirty feet long, is inserted for a handle.
+
+“Queequeg no care what god made him shark,” said the savage,
+agonizingly lifting his hand up and down; “wedder Fejee god or
+Nantucket god; but de god wat made shark must be one dam Ingin.”
+
+
+CHAPTER 67. Cutting In.
+
+It was a Saturday night, and such a Sabbath as followed! Ex officio
+
+
+=== History of British newspapers ===
+The history of British newspapers begins in the 18th century with the emergence of regular publications covering news and gossip. The relaxation of government censorship in the late 17th century led to a rise in publications, which in turn led to an increase in regulation throughout the 18th century. The Times began publication in 1785 and became the leading newspaper of the early 19th century, before the lifting of taxes on newspapers and technological innovations led to a boom in newspaper publishing in the late 19th century. Mass education and increasing affluence led to new papers such as the Daily Mail emerging at the end of the 19th century, aimed at lower middle-class readers.
+
+Algorithm: depth_first_traversal | Timestamp: 1778362691.6097505
+Pattern: linear_regression_gradient | Timestamp: 1778362751.6245682
+
+=== Gutenberg excerpt ===
+Majesty means, of course,” he
+said in a very respectful tone, but frowning and making faces at him as
+he spoke.
+
+“_Un_important, of course, I meant,” the King hastily said, and went on
+to himself in an undertone,
+
+“important—unimportant—unimportant—important—” as if he were trying
+which word sounded best.
+
+Some of the jury wrote it down “important,” and some “unimportant.”
+Alice could see this, as she was near enough to look over their slates;
+“but it doesn’t matter a bit,” she thought to herself.
+
+At this moment the King, who had been for some time busily writing in
+his note-book, cackled out “Silence!” and read out from his book, “Rule
+Forty-two. _All persons more than a mile high to leave the court_.”
+
+Everybody looked at Alice.
+
+“_I’m_ not a mile high,” said Alice.
+
+“You are,” said the King.
+
+“Nearly two miles high,” added the Queen.
+
+“Well, I shan’t go, at any rate,” said Alice: “besides, that’s not a
+regular rule: you invented it just now.”
+
+“It’s the oldest rule in the book,” said the King.
+
+“Then it ought to be Number One,” said Alice.
+
+The King turned pale, and shut his note-book hastily. “Consider your
+verdict,” he said to the jury, in a low, trembling voice.
+
+“There’s more evidence to come yet, please your Majesty,” said the
+White Rabbit, jumping up in a great hurry; “this paper has just been
+picked up.”
+
+“What’s in it?” said the Queen.
+
+“I haven’t opened it yet,” said the White Rabbit, “but it seems to be a
+letter, written by the prisoner to—to somebody.”
+
+“It mu
+
+Function: optimized_search_v2 | Timestamp: 1778362811.6356294
+Algorithm: depth_first_traversal | Timestamp: 1778362871.6448624
+Logic: recursive_backtracking | Timestamp: 1778362931.6462498
+
+=== Gutenberg excerpt ===
+tle,—his living foot advanced upon the deck, as if to step;
+his hat slouched heavily over his eyes; so that however motionless he
+stood, however the days and nights were added on, that he had not swung
+in his hammock; yet hidden beneath that slouching hat, they could never
+tell unerringly whether, for all this, his eyes were really closed at
+times; or whether he was still intently scanning them; no matter,
+though he stood so in the scuttle for a whole hour on the stretch, and
+the unheeded night-damp gathered in beads of dew upon that stone-carved
+coat and hat. The clothes that the night had wet, the next day’s
+sunshine dried upon him; and so, day after day, and night after night;
+he went no more beneath the planks; whatever he wanted from the cabin
+that thing he sent for.
+
+He ate in the same open air; that is, his two only meals,—breakfast and
+dinner: supper he never touched; nor reaped his beard; which darkly
+grew all gnarled, as unearthed roots of trees blown over, which still
+grow idly on at naked base, though perished in the upper verdure. But
+though his whole life was now become one watch on deck; and though the
+Parsee’s mystic watch was without intermission as his own; yet these
+two never seemed to speak—one man to the other—unless at long intervals
+some passing unmomentous matter made it necessary. Though such a potent
+spell seemed secretly to join the twain; openly, and to the awe-struck
+crew, they seemed pole-like asunder. If by day they chanced to speak
+one word; by
+
+Logic: recursive_backtracking | Timestamp: 1778362991.655595
+
+=== Gutenberg excerpt ===
+nly
+drive you to desperation, and not instigate you to virtue. I also am
+unfortunate; I and my family have been condemned, although innocent;
+judge, therefore, if I do not feel for your misfortunes.’
+
+“‘How can I thank you, my best and only benefactor? From your lips
+first have I heard the voice of kindness directed towards me; I shall
+be for ever grateful; and your present humanity assures me of success
+with those friends whom I am on the point of meeting.’
+
+“‘May I know the names and residence of those friends?’
+
+“I paused. This, I thought, was the moment of decision, which was to
+rob me of or bestow happiness on me for ever. I struggled vainly for
+firmness sufficient to answer him, but the effort destroyed all my
+remaining strength; I sank on the chair and sobbed aloud. At that
+moment I heard the steps of my younger protectors. I had not a moment
+to lose, but seizing the hand of the old man, I cried, ‘Now is the
+time! Save and protect me! You and your family are the friends whom I
+seek. Do not you desert me in the hour of trial!’
+
+“‘Great God!’ exclaimed the old man. ‘Who are you?’
+
+“At that instant the cottage door was opened, and Felix, Safie, and
+Agatha entered. Who can describe their horror and consternation on
+beholding me? Agatha fainted, and Safie, unable to attend to her
+friend, rushed out of the cottage. Felix darted forward, and with
+supernatural force tore me from his father, to whose knees I clung, in
+a transport of fury, he dashed me to the ground and struck m
+
+Logic: recursive_backtracking | Timestamp: 1778363051.6744032
+Logic: recursive_backtracking | Timestamp: 1778363111.6761794
+
+=== Gutenberg excerpt ===
+orbing topic of village
+talk immediately. Tom could not get away from it. Every reference to
+the murder sent a shudder to his heart, for his troubled conscience
+and fears almost persuaded him that these remarks were put forth in
+his hearing as “feelers”; he did not see how he could be suspected of
+knowing anything about the murder, but still he could not be comfortable
+in the midst of this gossip. It kept him in a cold shiver all the time.
+He took Huck to a lonely place to have a talk with him. It would be some
+relief to unseal his tongue for a little while; to divide his burden of
+distress with another sufferer. Moreover, he wanted to assure himself
+that Huck had remained discreet.
+
+“Huck, have you ever told anybody about—that?”
+
+“’Bout what?”
+
+“You know what.”
+
+“Oh—’course I haven’t.”
+
+“Never a word?”
+
+“Never a solitary word, so help me. What makes you ask?”
+
+“Well, I was afeard.”
+
+“Why, Tom Sawyer, we wouldn’t be alive two days if that got found out.
+_You_ know that.”
+
+Tom felt more comfortable. After a pause:
+
+“Huck, they couldn’t anybody get you to tell, could they?”
+
+“Get me to tell? Why, if I wanted that halfbreed devil to drownd me they
+could get me to tell. They ain’t no different way.”
+
+“Well, that’s all right, then. I reckon we’re safe as long as we keep
+mum. But let’s swear again, anyway. It’s more surer.”
+
+“I’m agreed.”
+
+So they swore again with dread solemnities.
+
+“What is the talk around, Huck? I’ve heard a power of it.”
+
+“Talk? Well, it’s just Muff Potter, Muf
+
+Pattern: linear_regression_gradient | Timestamp: 1778363171.6904418
+Function: optimized_search_v2 | Timestamp: 1778363231.697814
+
+=== Gutenberg excerpt ===
+ve men.”
+
+“That’s good.—Help me, man; I wish to stand. So, so, I see him! there!
+there! going to leeward still; what a leaping spout!—Hands off from me!
+The eternal sap runs up in Ahab’s bones again! Set the sail; out oars;
+the helm!”
+
+It is often the case that when a boat is stove, its crew, being picked
+up by another boat, help to work that second boat; and the chase is
+thus continued with what is called double-banked oars. It was thus now.
+But the added power of the boat did not equal the added power of the
+whale, for he seemed to have treble-banked his every fin; swimming with
+a velocity which plainly showed, that if now, under these
+circumstances, pushed on, the chase would prove an indefinitely
+prolonged, if not a hopeless one; nor could any crew endure for so long
+a period, such an unintermitted, intense straining at the oar; a thing
+barely tolerable only in some one brief vicissitude. The ship itself,
+then, as it sometimes happens, offered the most promising intermediate
+means of overtaking the chase. Accordingly, the boats now made for her,
+and were soon swayed up to their cranes—the two parts of the wrecked
+boat having been previously secured by her—and then hoisting everything
+to her side, and stacking her canvas high up, and sideways
+outstretching it with stun-sails, like the double-jointed wings of an
+albatross; the Pequod bore down in the leeward wake of Moby-Dick. At
+the well known, methodic intervals, the whale’s glittering spout was
+regularly announced from t
+
+Pattern: linear_regression_gradient | Timestamp: 1778363291.7047496
+Pattern: linear_regression_gradient | Timestamp: 1778363351.7093382
+
+=== Gutenberg excerpt ===
+, Count de Lacépède, a great
+naturalist, published a scientific systemized whale book, wherein are
+several pictures of the different species of the Leviathan. All these
+are not only incorrect, but the picture of the Mysticetus or Greenland
+whale (that is to say, the Right whale), even Scoresby, a long
+experienced man as touching that species, declares not to have its
+counterpart in nature.
+
+But the placing of the cap-sheaf to all this blundering business was
+reserved for the scientific Frederick Cuvier, brother to the famous
+Baron. In 1836, he published a Natural History of Whales, in which he
+gives what he calls a picture of the Sperm Whale. Before showing that
+picture to any Nantucketer, you had best provide for your summary
+retreat from Nantucket. In a word, Frederick Cuvier’s Sperm Whale is
+not a Sperm Whale, but a squash. Of course, he never had the benefit of
+a whaling voyage (such men seldom have), but whence he derived that
+picture, who can tell? Perhaps he got it as his scientific predecessor
+in the same field, Desmarest, got one of his authentic abortions; that
+is, from a Chinese drawing. And what sort of lively lads with the
+pencil those Chinese are, many queer cups and saucers inform us.
+
+As for the sign-painters’ whales seen in the streets hanging over the
+shops of oil-dealers, what shall be said of them? They are generally
+Richard III. whales, with dromedary humps, and very savage;
+breakfasting on three or four sailor tarts, that is whaleboats full of
+mariners:
+
+Pattern: linear_regression_gradient | Timestamp: 1778363411.7148597
+
+=== Gutenberg excerpt ===
+on again: “Twenty-four hours, I _think_; or
+is it twelve? I—”
+
+“Oh, don’t bother _me_,” said the Duchess; “I never could abide
+figures!” And with that she began nursing her child again, singing a
+sort of lullaby to it as she did so, and giving it a violent shake at
+the end of every line:
+
+“Speak roughly to your little boy,
+    And beat him when he sneezes:
+He only does it to annoy,
+    Because he knows it teases.”
+
+
+CHORUS.
+(In which the cook and the baby joined):
+
+
+“Wow! wow! wow!”
+
+
+While the Duchess sang the second verse of the song, she kept tossing
+the baby violently up and down, and the poor little thing howled so,
+that Alice could hardly hear the words:—
+
+“I speak severely to my boy,
+    I beat him when he sneezes;
+For he can thoroughly enjoy
+    The pepper when he pleases!”
+
+
+CHORUS.
+
+
+“Wow! wow! wow!”
+
+
+“Here! you may nurse it a bit, if you like!” the Duchess said to Alice,
+flinging the baby at her as she spoke. “I must go and get ready to play
+croquet with the Queen,” and she hurried out of the room. The cook
+threw a frying-pan after her as she went out, but it just missed her.
+
+Alice caught the baby with some difficulty, as it was a queer-shaped
+little creature, and held out its arms and legs in all directions,
+“just like a star-fish,” thought Alice. The poor little thing was
+snorting like a steam-engine when she caught it, and kept doubling
+itself up and straightening itself out again, so that altogether, for
+the first minute or two, it was as much as she could do
+
+Algorithm: depth_first_traversal | Timestamp: 1778363471.7282345
+Algorithm: depth_first_traversal | Timestamp: 1778363531.7355008
+
+=== Gutenberg excerpt ===
+nd
+mutely watches the monster die.
+
+
+CHAPTER 85. The Fountain.
+
+That for six thousand years—and no one knows how many millions of ages
+before—the great whales should have been spouting all over the sea, and
+sprinkling and mistifying the gardens of the deep, as with so many
+sprinkling or mistifying pots; and that for some centuries back,
+thousands of hunters should have been close by the fountain of the
+whale, watching these sprinklings and spoutings—that all this should
+be, and yet, that down to this blessed minute (fifteen and a quarter
+minutes past one o’clock P.M. of this sixteenth day of December, A.D.
+1851), it should still remain a problem, whether these spoutings are,
+after all, really water, or nothing but vapor—this is surely a
+noteworthy thing.
+
+Let us, then, look at this matter, along with some interesting items
+contingent. Every one knows that by the peculiar cunning of their
+gills, the finny tribes in general breathe the air which at all times
+is combined with the element in which they swim; hence, a herring or a
+cod might live a century, and never once raise its head above the
+surface. But owing to his marked internal structure which gives him
+regular lungs, like a human being’s, the whale can only live by
+inhaling the disengaged air in the open atmosphere. Wherefore the
+necessity for his periodical visits to the upper world. But he cannot
+in any degree breathe through his mouth, for, in his ordinary attitude,
+the Sperm Whale’s mouth is buried at least eight fee
+
+Function: optimized_search_v2 | Timestamp: 1778363591.7521703
+Pattern: linear_regression_gradient | Timestamp: 1778363651.7609005
+Algorithm: depth_first_traversal | Timestamp: 1778363711.7624402
+Function: optimized_search_v2 | Timestamp: 1778363771.768094
+
+=== Gutenberg excerpt ===
+the monotony of the journey, but
+the colonel answered only in monosyllables, and the conversation soon
+flagged. At last, however, the bumping of the road was exchanged for
+the crisp smoothness of a gravel-drive, and the carriage came to a
+stand. Colonel Lysander Stark sprang out, and, as I followed after him,
+pulled me swiftly into a porch which gaped in front of us. We stepped,
+as it were, right out of the carriage and into the hall, so that I
+failed to catch the most fleeting glance of the front of the house. The
+instant that I had crossed the threshold the door slammed heavily
+behind us, and I heard faintly the rattle of the wheels as the carriage
+drove away.
+
+“It was pitch dark inside the house, and the colonel fumbled about
+looking for matches and muttering under his breath. Suddenly a door
+opened at the other end of the passage, and a long, golden bar of light
+shot out in our direction. It grew broader, and a woman appeared with a
+lamp in her hand, which she held above her head, pushing her face
+forward and peering at us. I could see that she was pretty, and from
+the gloss with which the light shone upon her dark dress I knew that it
+was a rich material. She spoke a few words in a foreign tongue in a
+tone as though asking a question, and when my companion answered in a
+gruff monosyllable she gave such a start that the lamp nearly fell from
+her hand. Colonel Stark went up to her, whispered something in her ear,
+and then, pushing her back into the r
+
+Algorithm: depth_first_traversal | Timestamp: 1778363831.7714732
+Method: gradient_descent_optimizer | Timestamp: 1778363891.774718
+
+=== Gutenberg excerpt ===
+supernatural events; but when he was called upon
+to act officially in consequence, the whole tide of his incredulity
+returned. He, however, answered mildly, “I would willingly afford you
+every aid in your pursuit, but the creature of whom you speak appears to
+have powers which would put all my exertions to defiance. Who can follow an
+animal which can traverse the sea of ice and inhabit caves and dens where
+no man would venture to intrude? Besides, some months have elapsed since
+the commission of his crimes, and no one can conjecture to what place he
+has wandered or what region he may now inhabit.”
+
+“I do not doubt that he hovers near the spot which I inhabit, and if
+he has indeed taken refuge in the Alps, he may be hunted like the chamois
+and destroyed as a beast of prey. But I perceive your thoughts; you do not
+credit my narrative and do not intend to pursue my enemy with the
+punishment which is his desert.”
+
+As I spoke, rage sparkled in my eyes; the magistrate was intimidated.
+“You are mistaken,” said he. “I will exert myself, and if
+it is in my power to seize the monster, be assured that he shall suffer
+punishment proportionate to his crimes. But I fear, from what you have
+yourself described to be his properties, that this will prove
+impracticable; and thus, while every proper measure is pursued, you should
+make up your mind to disappointment.”
+
+“That cannot be; but all that I can say will be of little avail. My
+revenge is of no moment to you; yet, while I allow it to be
+
+Logic: recursive_backtracking | Timestamp: 1778363951.7766254
+Method: gradient_descent_optimizer | Timestamp: 1778364011.7928681
+Method: gradient_descent_optimizer | Timestamp: 1778364071.8065953
+Algorithm: depth_first_traversal | Timestamp: 1778364131.8130345
+Function: optimized_search_v2 | Timestamp: 1778364191.8264081
+Pattern: linear_regression_gradient | Timestamp: 1778364251.8392522
+
+=== Observer Building ===
+The Observer Building is a historic commercial and residential building located at 128 Union Square in Dover-Foxcroft, Maine. Built in 1854, it is an architecturally unusual Greek Revival wood-frame "flatiron" triangular building with a variable-pitch gable roof. In addition to its architectural significance, it is also historically significant as the home for many years of The Piscataquis Observer, one of Maine's oldest weekly newspapers. The building is now owned by the Dover-Foxcroft Historical Society, which uses it as a museum and storage space.
+
+Algorithm: depth_first_traversal | Timestamp: 1778364311.85059
+
+=== Gutenberg excerpt ===
+their tails against the hull, within a few inches of the
+sleepers’ hearts. Peering over the side you could just see them (as
+before you heard them) wallowing in the sullen, black waters, and
+turning over on their backs as they scooped out huge globular pieces of
+the whale of the bigness of a human head. This particular feat of the
+shark seems all but miraculous. How at such an apparently unassailable
+surface, they contrive to gouge out such symmetrical mouthfuls, remains
+a part of the universal problem of all things. The mark they thus leave
+on the whale, may best be likened to the hollow made by a carpenter in
+countersinking for a screw.
+
+Though amid all the smoking horror and diabolism of a sea-fight, sharks
+will be seen longingly gazing up to the ship’s decks, like hungry dogs
+round a table where red meat is being carved, ready to bolt down every
+killed man that is tossed to them; and though, while the valiant
+butchers over the deck-table are thus cannibally carving each other’s
+live meat with carving-knives all gilded and tasselled, the sharks,
+also, with their jewel-hilted mouths, are quarrelsomely carving away
+under the table at the dead meat; and though, were you to turn the
+whole affair upside down, it would still be pretty much the same thing,
+that is to say, a shocking sharkish business enough for all parties;
+and though sharks also are the invariable outriders of all slave ships
+crossing the Atlantic, systematically trotting alongside, to be handy
+in case a parcel
+
+Method: gradient_descent_optimizer | Timestamp: 1778364371.863809
+
+=== Gutenberg excerpt ===
+m Mr. Darcy more than once, but he believes that it was left to
+him _conditionally_ only.”
+
+“I have not a doubt of Mr. Bingley’s sincerity,” said Elizabeth warmly,
+“but you must excuse my not being convinced by assurances only. Mr.
+Bingley’s defence of his friend was a very able one, I dare say; but
+since he is unacquainted with several parts of the story, and has learnt
+the rest from that friend himself, I shall venture still to think of
+both gentlemen as I did before.”
+
+She then changed the discourse to one more gratifying to each, and on
+which there could be no difference of sentiment. Elizabeth listened with
+delight to the happy though modest hopes which Jane entertained of
+Bingley’s regard, and said all in her power to heighten her confidence
+in it. On their being joined by Mr. Bingley himself, Elizabeth withdrew
+to Miss Lucas; to whose inquiry after the pleasantness of her last
+partner she had scarcely replied, before Mr. Collins came up to them,
+and told her with great exultation, that he had just been so fortunate
+as to make a most important discovery.
+
+“I have found out,” said he, “by a singular accident, that there is now
+in the room a near relation to my patroness. I happened to overhear the
+gentleman himself mentioning to the young lady who does the honours of
+this house the names of his cousin Miss De Bourgh, and of her mother,
+Lady Catherine. How wonderfully these sort of things occur! Who would
+have thought of my meeting with--perhaps--a nephew of Lady Catherin
+
+Method: gradient_descent_optimizer | Timestamp: 1778364431.8687599
+Algorithm: depth_first_traversal | Timestamp: 1778364491.8778806
+Logic: recursive_backtracking | Timestamp: 1778364551.8833756
+
+=== Gutenberg excerpt ===
+n
+beholding thy streams, thy mountains, and, more than all, thy lovely
+lake!
+
+Yet, as I drew nearer home, grief and fear again overcame me. Night also
+closed around; and when I could hardly see the dark mountains, I felt still
+more gloomily. The picture appeared a vast and dim scene of evil, and I
+foresaw obscurely that I was destined to become the most wretched of human
+beings. Alas! I prophesied truly, and failed only in one single
+circumstance, that in all the misery I imagined and dreaded, I did not
+conceive the hundredth part of the anguish I was destined to endure.
+
+It was completely dark when I arrived in the environs of Geneva; the gates
+of the town were already shut; and I was obliged to pass the night at
+Secheron, a village at the distance of half a league from the city. The sky
+was serene; and, as I was unable to rest, I resolved to visit the spot
+where my poor William had been murdered. As I could not pass through the
+town, I was obliged to cross the lake in a boat to arrive at Plainpalais.
+During this short voyage I saw the lightning playing on the summit of Mont
+Blanc in the most beautiful figures. The storm appeared to approach
+rapidly, and, on landing, I ascended a low hill, that I might observe its
+progress. It advanced; the heavens were clouded, and I soon felt the rain
+coming slowly in large drops, but its violence quickly increased.
+
+I quitted my seat, and walked on, although the darkness and storm
+increased every minute, and the thunder burst with a terri
+
+Method: gradient_descent_optimizer | Timestamp: 1778364611.8986983
+Function: optimized_search_v2 | Timestamp: 1778364671.9093008
+Function: optimized_search_v2 | Timestamp: 1778364731.912111
+Algorithm: depth_first_traversal | Timestamp: 1778364791.9284637
+Method: gradient_descent_optimizer | Timestamp: 1778364851.9435477
+
+=== Gutenberg excerpt ===
+ten and to pity, the first to be admired; and in his manner
+of bidding her adieu, wishing her every enjoyment, reminding her of what
+she was to expect in Lady Catherine de Bourgh, and trusting their
+opinion of her--their opinion of everybody--would always coincide, there
+was a solicitude, an interest, which she felt must ever attach her to
+him with a most sincere regard; and she parted from him convinced, that,
+whether married or single, he must always be her model of the amiable
+and pleasing.
+
+Her fellow-travellers the next day were not of a kind to make her think
+him less agreeable. Sir William Lucas, and his daughter Maria, a
+good-humoured girl, but as empty-headed as himself, had nothing to say
+that could be worth hearing, and were listened to with about as much
+delight as the rattle of the chaise. Elizabeth loved absurdities, but
+she had known Sir William’s too long. He could tell her nothing new of
+the wonders of his presentation and knighthood; and his civilities were
+worn out, like his information.
+
+It was a journey of only twenty-four miles, and they began it so early
+as to be in Gracechurch Street by noon. As they drove to Mr. Gardiner’s
+door, Jane was at a drawing-room window watching their arrival: when
+they entered the passage, she was there to welcome them, and Elizabeth,
+looking earnestly in her face, was pleased to see it healthful and
+lovely as ever. On the stairs were a troop of little boys and girls,
+whose eagerness for their cousin’s appearance would not a
+
+Pattern: linear_regression_gradient | Timestamp: 1778364911.9523015
+
+=== Gutenberg excerpt ===
+oor flew open, and a little blonde
+woman stood in the opening, clad in some sort of light mousseline de
+soie, with a touch of fluffy pink chiffon at her neck and wrists. She
+stood with her figure outlined against the flood of light, one hand
+upon the door, one half-raised in her eagerness, her body slightly
+bent, her head and face protruded, with eager eyes and parted lips, a
+standing question.
+
+“Well?” she cried, “well?” And then, seeing that there were two of us,
+she gave a cry of hope which sank into a groan as she saw that my
+companion shook his head and shrugged his shoulders.
+
+“No good news?”
+
+“None.”
+
+“No bad?”
+
+“No.”
+
+“Thank God for that. But come in. You must be weary, for you have had a
+long day.”
+
+“This is my friend, Dr. Watson. He has been of most vital use to me in
+several of my cases, and a lucky chance has made it possible for me to
+bring him out and associate him with this investigation.”
+
+“I am delighted to see you,” said she, pressing my hand warmly. “You
+will, I am sure, forgive anything that may be wanting in our
+arrangements, when you consider the blow which has come so suddenly
+upon us.”
+
+“My dear madam,” said I, “I am an old campaigner, and if I were not I
+can very well see that no apology is needed. If I can be of any
+assistance, either to you or to my friend here, I shall be indeed
+happy.”
+
+“Now, Mr. Sherlock Holmes,” said the lady as we entered a well-lit
+dining-room, upon the table of which a cold supper had bee
+
+Algorithm: depth_first_traversal | Timestamp: 1778364971.9627774
+Method: gradient_descent_optimizer | Timestamp: 1778365031.963711
+Method: gradient_descent_optimizer | Timestamp: 1778365091.9679024
+Pattern: linear_regression_gradient | Timestamp: 1778365151.9842267
+
+=== Gutenberg excerpt ===
+a used to want to go to London,” added Kitty.
+
+“She is happy, then,” said her father, drily; “and her residence there
+will probably be of some duration.”
+
+Then, after a short silence, he continued, “Lizzy, I bear you no
+ill-will for being justified in your advice to me last May, which,
+considering the event, shows some greatness of mind.”
+
+They were interrupted by Miss Bennet, who came to fetch her mother’s
+tea.
+
+“This is a parade,” cried he, “which does one good; it gives such an
+elegance to misfortune! Another day I will do the same; I will sit in my
+library, in my nightcap and powdering gown, and give as much trouble as
+I can,--or perhaps I may defer it till Kitty runs away.”
+
+“I am not going to run away, papa,” said Kitty, fretfully. “If _I_
+should ever go to Brighton, I would behave better than Lydia.”
+
+“_You_ go to Brighton! I would not trust you so near it as Eastbourne,
+for fifty pounds! No, Kitty, I have at least learnt to be cautious, and
+you will feel the effects of it. No officer is ever to enter my house
+again, nor even to pass through the village. Balls will be absolutely
+prohibited, unless you stand up with one of your sisters. And you are
+never to stir out of doors, till you can prove that you have spent ten
+minutes of every day in a rational manner.”
+
+Kitty, who took all these threats in a serious light, began to cry.
+
+“Well, well,” said he, “do not make yourself unhappy. If you are a good
+girl for the next ten years, I will take you to a review at the end of
+
+Pattern: linear_regression_gradient | Timestamp: 1778365211.9871836
+Logic: recursive_backtracking | Timestamp: 1778365271.989526
+Method: gradient_descent_optimizer | Timestamp: 1778365332.0020816
+Algorithm: depth_first_traversal | Timestamp: 1778365392.013872
+Method: gradient_descent_optimizer | Timestamp: 1778365452.0161252
+Pattern: linear_regression_gradient | Timestamp: 1778365512.0309637
+Function: optimized_search_v2 | Timestamp: 1778365572.0384176
+Algorithm: depth_first_traversal | Timestamp: 1778365632.0414946
+Method: gradient_descent_optimizer | Timestamp: 1778365692.051098
+Logic: recursive_backtracking | Timestamp: 1778365752.0578375
+Pattern: linear_regression_gradient | Timestamp: 1778365812.067803
+Logic: recursive_backtracking | Timestamp: 1778365872.080902
+Function: optimized_search_v2 | Timestamp: 1778365932.085066
+
+=== Aeroflot Flight 8175 ===
+Aeroflot Flight 8175 was a scheduled passenger flight from Volgograd, Volgograd Oblast, to Sverdlovsk, Sverdlovsk Oblast. On September 14, 1990, the plane struck trees and broke up in a wooded area, killing four on board. The aircraft stopped 381 m from the point of the first contact with obstacles. The fuselage broke in two between frames 31 and 32, with the front section turning 51° relative to the rear section. In the area of frame 10, the fuselage was deformed with a deviation of the pilot's cabin to the left by 2-3° from the aircraft axis. Part of the tail and engine #2 separated.
+
+Algorithm: depth_first_traversal | Timestamp: 1778365992.0999787
+Logic: recursive_backtracking | Timestamp: 1778366052.1134884
+Algorithm: depth_first_traversal | Timestamp: 1778366112.1169422
+
+=== Neural network ===
+
+
+A neural network is a group of interconnected units called neurons that send signals to one another. Neurons can be either biological cells or mathematical models. While individual neurons are simple, many of them together in a network can perform complex tasks. There are two main types of neural networks.In neuroscience, a biological neural network is a physical structure found in brains and complex nervous systems – a population of nerve cells connected by synapses.
+In machine learning, an artificial neural network is a mathematical model used to approximate nonlinear functions. Artificial neural networks are used to solve artificial intelligence problems.
+
+Function: optimized_search_v2 | Timestamp: 1778366172.1323233
+
+=== Neural network ===
+
+
+A neural network is a group of interconnected units called neurons that send signals to one another. Neurons can be either biological cells or mathematical models. While individual neurons are simple, many of them together in a network can perform complex tasks. There are two main types of neural networks.In neuroscience, a biological neural network is a physical structure found in brains and complex nervous systems – a population of nerve cells connected by synapses.
+In machine learning, an artificial neural network is a mathematical model used to approximate nonlinear functions. Artificial neural networks are used to solve artificial intelligence problems.
+
+Logic: recursive_backtracking | Timestamp: 1778366232.14713
+Pattern: linear_regression_gradient | Timestamp: 1778366292.1557522
+
+=== Transformer (deep learning) ===
+In deep learning, the transformer is a family of artificial neural network architectures based on the multi-head attention mechanism, in which text is converted to numerical representations called tokens, and each token is converted into a vector via lookup from a word embedding table. At each layer, each token is then contextualized within the scope of the context window with other (unmasked) tokens via a parallel multi-head attention mechanism, allowing the signal for key tokens to be amplified and less important tokens to be diminished. Because self-attention alone is permutation-invariant, transformers inject positional information, typically through positional encodings or learned positional embeddings, so token order can affect the output.
+
+Pattern: linear_regression_gradient | Timestamp: 1778366352.1605175
+
+=== Transformer (deep learning) ===
+In deep learning, the transformer is a family of artificial neural network architectures based on the multi-head attention mechanism, in which text is converted to numerical representations called tokens, and each token is converted into a vector via lookup from a word embedding table. At each layer, each token is then contextualized within the scope of the context window with other (unmasked) tokens via a parallel multi-head attention mechanism, allowing the signal for key tokens to be amplified and less important tokens to be diminished. Because self-attention alone is permutation-invariant, transformers inject positional information, typically through positional encodings or learned positional embeddings, so token order can affect the output.
+
+Method: gradient_descent_optimizer | Timestamp: 1778366412.1778212
+Logic: recursive_backtracking | Timestamp: 1778366472.1935084
+Algorithm: depth_first_traversal | Timestamp: 1778366532.2089844
+Function: optimized_search_v2 | Timestamp: 1778366592.2149556
